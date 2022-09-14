@@ -1,0 +1,343 @@
+package com.bp.ist.tf.credit.crave.domain.deal.trade.impl;
+
+import java.util.Date;
+
+public class OdsCraveTrade  {
+    private String tradeKey;
+
+    private String sourceSystemCd;
+
+    private Long sourceTradeId;
+
+    private String sourceTradeCd;
+
+    private String tradeHeaderTxnKey;
+
+    private Long tradeVersionNumber;
+
+    private Long creditEntityBpId;
+
+    private Long creditEntityCptyId;
+
+    private Date tradeDoneDt;
+
+    private Date tradeEnteredDt;
+
+    private String tradeEnteredTimezone;
+
+    private String tradeStatusCd;
+
+    private String rbuCd;
+
+    private String bpTraderName;
+
+    private String counterpartyTraderName;
+
+    private String tradeTypeCd;
+
+    private String tradeClassificationCd;
+
+    private String phyFinInd;
+
+    private Boolean monitorCreditExpsrFlag;
+
+    private Boolean exchangeTradeFlag;
+
+    private Date sourceLastUpdtDtm;
+
+    private String sourceLastUpdtUserName;
+
+    private String exchangeName;
+
+    private String exchangeTradeRef;
+
+    private String spotTermInd;
+
+    private Date createDtm;
+
+    private Date lastUpdtDtm;
+
+    private String createUserId;
+
+    private String updateUserId;
+
+    private Boolean deleteFlag;
+
+    public String getTradeKey() {
+        return tradeKey;
+    }
+
+    public void setTradeKey(String tradeKey) {
+        this.tradeKey = tradeKey;
+    }
+
+    public String getSourceSystemCd() {
+        return sourceSystemCd;
+    }
+
+    public void setSourceSystemCd(String sourceSystemCd) {
+        this.sourceSystemCd = sourceSystemCd;
+    }
+
+    public Long getSourceTradeId() {
+        return sourceTradeId;
+    }
+
+    public void setSourceTradeId(Long sourceTradeId) {
+        this.sourceTradeId = sourceTradeId;
+    }
+
+    public String getSourceTradeCd() {
+        return sourceTradeCd;
+    }
+
+    public void setSourceTradeCd(String sourceTradeCd) {
+        this.sourceTradeCd = sourceTradeCd;
+    }
+
+    public String getTradeHeaderTxnKey() {
+        return tradeHeaderTxnKey;
+    }
+
+    public void setTradeHeaderTxnKey(String tradeHeaderTxnKey) {
+        this.tradeHeaderTxnKey = tradeHeaderTxnKey;
+    }
+
+    public Long getTradeVersionNumber() {
+        return tradeVersionNumber;
+    }
+
+    public void setTradeVersionNumber(Long tradeVersionNumber) {
+        this.tradeVersionNumber = tradeVersionNumber;
+    }
+
+    public Long getCreditEntityBpId() {
+        return creditEntityBpId;
+    }
+
+    public void setCreditEntityBpId(Long creditEntityBpId) {
+        this.creditEntityBpId = creditEntityBpId;
+    }
+
+    public Long getCreditEntityCptyId() {
+        return creditEntityCptyId;
+    }
+
+    public void setCreditEntityCptyId(Long creditEntityCptyId) {
+        this.creditEntityCptyId = creditEntityCptyId;
+    }
+
+    public Date getTradeDoneDt() {
+        return tradeDoneDt;
+    }
+
+    public void setTradeDoneDt(Date tradeDoneDt) {
+        this.tradeDoneDt = tradeDoneDt;
+    }
+
+    public Date getTradeEnteredDt() {
+        return tradeEnteredDt;
+    }
+
+    public void setTradeEnteredDt(Date tradeEnteredDt) {
+        this.tradeEnteredDt = tradeEnteredDt;
+    }
+
+    public String getTradeEnteredTimezone() {
+        return tradeEnteredTimezone;
+    }
+
+    public void setTradeEnteredTimezone(String tradeEnteredTimezone) {
+        this.tradeEnteredTimezone = tradeEnteredTimezone;
+    }
+
+    public String getTradeStatusCd() {
+        return tradeStatusCd;
+    }
+
+    public void setTradeStatusCd(String tradeStatusCd) {
+        this.tradeStatusCd = tradeStatusCd;
+    }
+
+    public String getRbuCd() {
+        return rbuCd;
+    }
+
+    public void setRbuCd(String rbuCd) {
+        this.rbuCd = rbuCd;
+    }
+
+    public String getBpTraderName() {
+        return bpTraderName;
+    }
+
+    public void setBpTraderName(String bpTraderName) {
+        this.bpTraderName = bpTraderName;
+    }
+
+    public String getCounterpartyTraderName() {
+        return counterpartyTraderName;
+    }
+
+    public void setCounterpartyTraderName(String counterpartyTraderName) {
+        this.counterpartyTraderName = counterpartyTraderName;
+    }
+
+    public String getTradeTypeCd() {
+        return tradeTypeCd;
+    }
+
+    public void setTradeTypeCd(String tradeTypeCd) {
+        this.tradeTypeCd = tradeTypeCd;
+    }
+
+    public String getTradeClassificationCd() {
+        return tradeClassificationCd;
+    }
+
+    public void setTradeClassificationCd(String tradeClassificationCd) {
+        this.tradeClassificationCd = tradeClassificationCd;
+    }
+
+    public String getPhyFinInd() {
+        return phyFinInd;
+    }
+
+    public void setPhyFinInd(String phyFinInd) {
+        this.phyFinInd = phyFinInd;
+    }
+
+    public Boolean getMonitorCreditExpsrFlag() {
+        return monitorCreditExpsrFlag;
+    }
+
+    public void setMonitorCreditExpsrFlag(Boolean monitorCreditExpsrFlag) {
+        this.monitorCreditExpsrFlag = monitorCreditExpsrFlag;
+    }
+
+    public Boolean getExchangeTradeFlag() {
+        return exchangeTradeFlag;
+    }
+
+    public void setExchangeTradeFlag(Boolean exchangeTradeFlag) {
+        this.exchangeTradeFlag = exchangeTradeFlag;
+    }
+
+    public Date getSourceLastUpdtDtm() {
+        return sourceLastUpdtDtm;
+    }
+
+    public void setSourceLastUpdtDtm(Date sourceLastUpdtDtm) {
+        this.sourceLastUpdtDtm = sourceLastUpdtDtm;
+    }
+
+    public String getSourceLastUpdtUserName() {
+        return sourceLastUpdtUserName;
+    }
+
+    public void setSourceLastUpdtUserName(String sourceLastUpdtUserName) {
+        this.sourceLastUpdtUserName = sourceLastUpdtUserName;
+    }
+
+    public String getExchangeName() {
+        return exchangeName;
+    }
+
+    public void setExchangeName(String exchangeName) {
+        this.exchangeName = exchangeName;
+    }
+
+    public String getExchangeTradeRef() {
+        return exchangeTradeRef;
+    }
+
+    public void setExchangeTradeRef(String exchangeTradeRef) {
+        this.exchangeTradeRef = exchangeTradeRef;
+    }
+
+    public String getSpotTermInd() {
+        return spotTermInd;
+    }
+
+    public void setSpotTermInd(String spotTermInd) {
+        this.spotTermInd = spotTermInd;
+    }
+
+    public Date getCreateDtm() {
+        return createDtm;
+    }
+
+    public void setCreateDtm(Date createDtm) {
+        this.createDtm = createDtm;
+    }
+
+    public Date getLastUpdtDtm() {
+        return lastUpdtDtm;
+    }
+
+    public void setLastUpdtDtm(Date lastUpdtDtm) {
+        this.lastUpdtDtm = lastUpdtDtm;
+    }
+
+    public String getCreateUserId() {
+        return createUserId;
+    }
+
+    public void setCreateUserId(String createUserId) {
+        this.createUserId = createUserId;
+    }
+
+    public String getUpdateUserId() {
+        return updateUserId;
+    }
+
+    public void setUpdateUserId(String updateUserId) {
+        this.updateUserId = updateUserId;
+    }
+
+    public Boolean getDeleteFlag() {
+        return deleteFlag;
+    }
+
+    public void setDeleteFlag(Boolean deleteFlag) {
+        this.deleteFlag = deleteFlag;
+    }
+
+	@Override
+	public String toString() {
+		return "OdsCraveTrade [tradeKey=" + tradeKey + ", tradeHeaderTxnKey=" + tradeHeaderTxnKey + ", tradeDoneDt="
+				+ tradeDoneDt + ", tradeTypeCd=" + tradeTypeCd + ", tradeClassificationCd=" + tradeClassificationCd
+				+ "]";
+	}
+
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((tradeHeaderTxnKey == null) ? 0 : tradeHeaderTxnKey.hashCode());
+		result = prime * result + ((tradeKey == null) ? 0 : tradeKey.hashCode());
+		return result;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		OdsCraveTrade other = (OdsCraveTrade) obj;
+		if (tradeHeaderTxnKey == null) {
+			if (other.tradeHeaderTxnKey != null)
+				return false;
+		} else if (!tradeHeaderTxnKey.equals(other.tradeHeaderTxnKey))
+			return false;
+		if (tradeKey == null) {
+			if (other.tradeKey != null)
+				return false;
+		} else if (!tradeKey.equals(other.tradeKey))
+			return false;
+		return true;
+	}
+}

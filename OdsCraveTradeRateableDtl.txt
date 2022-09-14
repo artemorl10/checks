@@ -1,0 +1,174 @@
+//
+// Source code recreated from a .class file by IntelliJ IDEA
+// (powered by FernFlower decompiler)
+//
+
+package com.bp.ist.tf.credit.crave.domain.deal.rateableLegDetail.impl;
+
+import java.util.Date;
+
+public class OdsCraveTradeRateableDtl {
+    private String tradeLegDetailKey;
+    private String tradeLegKey;
+    private String tradeTxnKey;
+    private Date dailyDelDt;
+    private Double dailyDelMtmAmt;
+    private Double dailyDelFutSettAmt;
+    private Double dailyDelSettAmt;
+    private Date createDtm;
+    private Date lastUpdtDtm;
+    private String createUserId;
+    private String updateUserId;
+    private Boolean deleteFlag;
+    private String contractQuantityUomCd;
+    private Double contractQuantityAmt;
+
+    public OdsCraveTradeRateableDtl() {
+    }
+
+    public String getTradeLegDetailKey() {
+        return this.tradeLegDetailKey;
+    }
+
+    public void setTradeLegDetailKey(String tradeLegDetailKey) {
+        this.tradeLegDetailKey = tradeLegDetailKey;
+    }
+
+    public String getTradeLegKey() {
+        return this.tradeLegKey;
+    }
+
+    public void setTradeLegKey(String tradeLegKey) {
+        this.tradeLegKey = tradeLegKey;
+    }
+
+    public String getTradeTxnKey() {
+        return this.tradeTxnKey;
+    }
+
+    public void setTradeTxnKey(String tradeTxnKey) {
+        this.tradeTxnKey = tradeTxnKey;
+    }
+
+    public Date getDailyDelDt() {
+        return this.dailyDelDt;
+    }
+
+    public void setDailyDelDt(Date dailyDelDt) {
+        this.dailyDelDt = dailyDelDt;
+    }
+
+    public Double getDailyDelMtmAmt() {
+        return this.dailyDelMtmAmt;
+    }
+
+    public void setDailyDelMtmAmt(Double dailyDelMtmAmt) {
+        this.dailyDelMtmAmt = dailyDelMtmAmt;
+    }
+
+    public Double getDailyDelFutSettAmt() {
+        return this.dailyDelFutSettAmt;
+    }
+
+    public void setDailyDelFutSettAmt(Double dailyDelFutSettAmt) {
+        this.dailyDelFutSettAmt = dailyDelFutSettAmt;
+    }
+
+    public Double getDailyDelSettAmt() {
+        return this.dailyDelSettAmt;
+    }
+
+    public void setDailyDelSettAmt(Double dailyDelSettAmt) {
+        this.dailyDelSettAmt = dailyDelSettAmt;
+    }
+
+    public Date getCreateDtm() {
+        return this.createDtm;
+    }
+
+    public void setCreateDtm(Date createDtm) {
+        this.createDtm = createDtm;
+    }
+
+    public Date getLastUpdtDtm() {
+        return this.lastUpdtDtm;
+    }
+
+    public void setLastUpdtDtm(Date lastUpdtDtm) {
+        this.lastUpdtDtm = lastUpdtDtm;
+    }
+
+    public String getCreateUserId() {
+        return this.createUserId;
+    }
+
+    public void setCreateUserId(String createUserId) {
+        this.createUserId = createUserId;
+    }
+
+    public String getUpdateUserId() {
+        return this.updateUserId;
+    }
+
+    public void setUpdateUserId(String updateUserId) {
+        this.updateUserId = updateUserId;
+    }
+
+    public Boolean getDeleteFlag() {
+        return this.deleteFlag;
+    }
+
+    public void setDeleteFlag(Boolean deleteFlag) {
+        this.deleteFlag = deleteFlag;
+    }
+
+    public String getContractQuantityUomCd() {
+        return this.contractQuantityUomCd;
+    }
+
+    public void setContractQuantityUomCd(String contractQuantityUomCd) {
+        this.contractQuantityUomCd = contractQuantityUomCd;
+    }
+
+    public Double getContractQuantityAmt() {
+        return this.contractQuantityAmt;
+    }
+
+    public void setContractQuantityAmt(Double contractQuantityAmt) {
+        this.contractQuantityAmt = contractQuantityAmt;
+    }
+
+    public String toString() {
+        return "OdsCraveTradeRateableDtl [tradeLegDetailKey=" + this.tradeLegDetailKey + ", tradeLegKey=" + this.tradeLegKey + ", tradeTxnKey=" + this.tradeTxnKey + ", dailyDelDt=" + this.dailyDelDt + ", dailyDelMtmAmt=" + this.dailyDelMtmAmt + ", dailyDelFutSettAmt=" + this.dailyDelFutSettAmt + ", dailyDelSettAmt=" + this.dailyDelSettAmt + "]";
+    }
+
+    public int hashCode() {
+        int prime = true;
+        int result = 1;
+        int result = 31 * result + (this.tradeLegDetailKey == null ? 0 : this.tradeLegDetailKey.hashCode());
+        return result;
+    }
+
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        } else if (obj == null) {
+            return false;
+        } else if (obj instanceof String) {
+            return this.tradeLegDetailKey.equals(obj);
+        } else if (this.getClass() != obj.getClass()) {
+            return false;
+        } else {
+            OdsCraveTradeRateableDtl other = (OdsCraveTradeRateableDtl)obj;
+            if (this.tradeLegDetailKey == null) {
+                if (other.tradeLegDetailKey != null) {
+                    return false;
+                }
+            } else if (!this.tradeLegDetailKey.equals(other.tradeLegDetailKey)) {
+                return false;
+            }
+
+            return true;
+        }
+    }
+}

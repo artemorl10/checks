@@ -1,0 +1,429 @@
+case class OdsCraveNonRatePoLeg (
+val trade_leg_key: String,
+val trade_key: String,
+val source_leg_strip_cd: String,
+val trade_txn_cd: String,
+val trade_txn_key: String,
+val period_start_date: String,
+val period_end_date: String,
+val refreshed_dt: String,
+val commodity_id: String,
+val buy_sell_ind: String,
+val legal_agreement3_key: String,
+val legal_agreement4_key: String,
+val legal_agreement5_key: String,
+val gtc_legal_agreement_key: String,
+val netting3_flag: String,
+val netting4_flag: String,
+val netting5_flag: String,
+val chain_key: String,
+val csa_ind: String,
+val credit_rights_amd_ind: String,
+val evergreen_flag: String,
+val delivery_location_id: String,
+val transport_mode_cd: String,
+val transport_mode_adt: String,
+val transport_id: String,
+val transport_id_adt: String,
+val delivery_period_start_dt: String,
+val delivery_period_end_dt: String,
+val delivery_term_cd: String,
+val delivery_term_adt_cd: String,
+val discharge_start_dt: String,
+val discharge_end_dt: String,
+val discharge_start_dt_adt: String,
+val discharge_end_dt_adt: String,
+val location_id_discharge: String,
+val load_start_dt: String,
+val load_end_dt: String,
+val load_start_dt_adt: String,
+val load_end_dt_adt: String,
+val delivery_status_cd: String,
+val spot_term_ind: String,
+val settlement_price: String,
+val sett_price_uom_cd: String,
+val sett_price_currency_cd: String,
+val sett_price_curve_key: String,
+val sett_price_start_dt: String,
+val sett_price_end_dt: String,
+val split_pre_next_adt: String,
+val split_pre_next_ind: String,
+val cal_work_day_ind: String,
+val earlier_later_ind: String,
+val trade_event_atl_cd: String,
+val trade_event_cd: String,
+val trade_price_term_cd: String,
+val offset_from_event_alt: String,
+val from_after_ind: String,
+val from_after_alt_ind: String,
+val cal_working_days_alt_ind: String,
+val offset_from_event: String,
+val offset_month_cd: String,
+val sett_on_day_of_mth_num: String,
+val fixed_settlement_dt: String,
+val fixed_settlement_adt: String,
+val period_before_sett: String,
+val period_on_sett: String,
+val period_after_sett: String,
+val sett_start_day_of_month: String,
+val sett_end_day_of_month: String,
+val sett_last_day_of_mth_flag: String,
+val market_price: String,
+val market_currency_cd: String,
+val market_uom_cd: String,
+val market_start_dt: String,
+val market_end_dt: String,
+val market_curve_key: String,
+val quantity_amt: String,
+val quantity_uom_cd: String,
+val quantity_basis_cd: String,
+val quantity_opd_amt: String,
+val quantity_opd_uom_cd: String,
+val max_quantiy_amt: String,
+val max_quantiy_uom_cd: String,
+val upwards_tolerance_amt: String,
+val downwards_tolerance_amt: String,
+val conversion_factor: String,
+val total_down_tolerance_amt: String,
+val total_contractual_amt: String,
+val total_contractual_uom_cd: String,
+val mtm_value_amt: String,
+val mtm_value_currency_cd: String,
+val settlement_value_amt: String,
+val settlement_value_currency_cd: String,
+val payment_due_date: String,
+val price_settle_frequency_cd: String,
+val volume_fee_ind: String,
+val invoice_dt: String,
+val title_transfer_date: String,
+val return_exposure_ind: String,
+val src_leg_last_updt_dtm: String,
+val opd_last_modified_dt: String,
+val payment_security_cd: String,
+val leg_calendar_cd: String,
+val source_valuation_dt: String,
+val create_dtm: String,
+val last_updt_dtm: String,
+val create_user_id: String,
+val update_user_id: String,
+val delete_flag: String,
+val chain_number: String,
+val provisional_settlement_value: String,
+val final_settlement_value: String,
+val provisional_settlement_date: String,
+val final_settlement_date: String,
+val prepay_value_status: String,
+val prepay_final_price: String,
+val prepay_final_value: String,
+val prepay_currency: String,
+val prepay_usd_value: String,
+val prepay_conversion_rate: String,
+val prepay_priced_out_ind: String,
+val prepay_settlement_date: String,
+val prepay_percentage: String,
+val prepay_issuance_day_count: String,
+val prepay_issuance_date: String,
+val prepay_cal_work_ind: String,
+val prepay_from_after_ind: String,
+)
+extends JavaFactory[SwapLegImpl, POJO] {
+  import java.time.ZonedDateTime
+  import java.time.format.DateTimeFormatter
+  private val fmt = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss.SSSZ")
+
+  @Override
+  def asJava: POJO = {
+    val o = new POJO()
+    o.setTradeLegKey(this.trade_leg_key)
+o.setTradeKey(this.trade_key)
+o.setSourceLegStripCd(this.source_leg_strip_cd)
+o.setTradeTxnCd(this.trade_txn_cd)
+o.setTradeTxnKey(this.trade_txn_key)
+if (this.period_start_date == null || this.period_start_date.equals("null"))
+  o.setPeriodStartDate(null)
+else o.setPeriodStartDate(Date.valueOf(
+      ZonedDateTime.parse(this.period_start_date, DateTimeFormatter.ISO_OFFSET_DATE_TIME).toLocalDate))
+if (this.period_end_date == null || this.period_end_date.equals("null"))
+  o.setPeriodEndDate(null)
+else o.setPeriodEndDate(Date.valueOf(
+      ZonedDateTime.parse(this.period_end_date, DateTimeFormatter.ISO_OFFSET_DATE_TIME).toLocalDate))
+if (this.refreshed_dt == null || this.refreshed_dt.equals("null"))
+  o.setRefreshedDt(null)
+else o.setRefreshedDt(Date.valueOf(
+      ZonedDateTime.parse(this.refreshed_dt, DateTimeFormatter.ISO_OFFSET_DATE_TIME).toLocalDate))
+if (this.commodity_id == null || this.commodity_id.equals("null"))
+  o.setCommodityId(null)
+else o.setCommodityId(this.commodity_id.toLong)
+o.setBuySellInd(this.buy_sell_ind)
+if (this.legal_agreement3_key == null || this.legal_agreement3_key.equals("null"))
+  o.setLegalAgreement3Key(null)
+else o.setLegalAgreement3Key(this.legal_agreement3_key.toLong)
+if (this.legal_agreement4_key == null || this.legal_agreement4_key.equals("null"))
+  o.setLegalAgreement4Key(null)
+else o.setLegalAgreement4Key(this.legal_agreement4_key.toLong)
+if (this.legal_agreement5_key == null || this.legal_agreement5_key.equals("null"))
+  o.setLegalAgreement5Key(null)
+else o.setLegalAgreement5Key(this.legal_agreement5_key.toLong)
+if (this.gtc_legal_agreement_key == null || this.gtc_legal_agreement_key.equals("null"))
+  o.setGtcLegalAgreementKey(null)
+else o.setGtcLegalAgreementKey(this.gtc_legal_agreement_key.toLong)
+if (this.netting3_flag == null || this.netting3_flag.equals("null"))
+  o.setNetting3Flag(null)
+else o.setNetting3Flag(this.netting3_flag == "Y")
+if (this.netting4_flag == null || this.netting4_flag.equals("null"))
+  o.setNetting4Flag(null)
+else o.setNetting4Flag(this.netting4_flag == "Y")
+if (this.netting5_flag == null || this.netting5_flag.equals("null"))
+  o.setNetting5Flag(null)
+else o.setNetting5Flag(this.netting5_flag == "Y")
+if (this.chain_key == null || this.chain_key.equals("null"))
+  o.setChainKey(null)
+else o.setChainKey(this.chain_key.toLong)
+o.setCsaInd(this.csa_ind)
+o.setCreditRightsAmdInd(this.credit_rights_amd_ind)
+if (this.evergreen_flag == null || this.evergreen_flag.equals("null"))
+  o.setEvergreenFlag(null)
+else o.setEvergreenFlag(this.evergreen_flag == "Y")
+if (this.delivery_location_id == null || this.delivery_location_id.equals("null"))
+  o.setDeliveryLocationId(null)
+else o.setDeliveryLocationId(this.delivery_location_id.toLong)
+o.setTransportModeCd(this.transport_mode_cd)
+o.setTransportModeAdt(this.transport_mode_adt)
+if (this.transport_id == null || this.transport_id.equals("null"))
+  o.setTransportId(null)
+else o.setTransportId(this.transport_id.toLong)
+o.setTransportIdAdt(this.transport_id_adt)
+if (this.delivery_period_start_dt == null || this.delivery_period_start_dt.equals("null"))
+  o.setDeliveryPeriodStartDt(null)
+else o.setDeliveryPeriodStartDt(Date.valueOf(
+      ZonedDateTime.parse(this.delivery_period_start_dt, DateTimeFormatter.ISO_OFFSET_DATE_TIME).toLocalDate))
+if (this.delivery_period_end_dt == null || this.delivery_period_end_dt.equals("null"))
+  o.setDeliveryPeriodEndDt(null)
+else o.setDeliveryPeriodEndDt(Date.valueOf(
+      ZonedDateTime.parse(this.delivery_period_end_dt, DateTimeFormatter.ISO_OFFSET_DATE_TIME).toLocalDate))
+o.setDeliveryTermCd(this.delivery_term_cd)
+o.setDeliveryTermAdtCd(this.delivery_term_adt_cd)
+if (this.discharge_start_dt == null || this.discharge_start_dt.equals("null"))
+  o.setDischargeStartDt(null)
+else o.setDischargeStartDt(Date.valueOf(
+      ZonedDateTime.parse(this.discharge_start_dt, DateTimeFormatter.ISO_OFFSET_DATE_TIME).toLocalDate))
+if (this.discharge_end_dt == null || this.discharge_end_dt.equals("null"))
+  o.setDischargeEndDt(null)
+else o.setDischargeEndDt(Date.valueOf(
+      ZonedDateTime.parse(this.discharge_end_dt, DateTimeFormatter.ISO_OFFSET_DATE_TIME).toLocalDate))
+o.setDischargeStartDtAdt(this.discharge_start_dt_adt)
+o.setDischargeEndDtAdt(this.discharge_end_dt_adt)
+if (this.location_id_discharge == null || this.location_id_discharge.equals("null"))
+  o.setLocationIdDischarge(null)
+else o.setLocationIdDischarge(this.location_id_discharge.toLong)
+if (this.load_start_dt == null || this.load_start_dt.equals("null"))
+  o.setLoadStartDt(null)
+else o.setLoadStartDt(Date.valueOf(
+      ZonedDateTime.parse(this.load_start_dt, DateTimeFormatter.ISO_OFFSET_DATE_TIME).toLocalDate))
+if (this.load_end_dt == null || this.load_end_dt.equals("null"))
+  o.setLoadEndDt(null)
+else o.setLoadEndDt(Date.valueOf(
+      ZonedDateTime.parse(this.load_end_dt, DateTimeFormatter.ISO_OFFSET_DATE_TIME).toLocalDate))
+o.setLoadStartDtAdt(this.load_start_dt_adt)
+o.setLoadEndDtAdt(this.load_end_dt_adt)
+o.setDeliveryStatusCd(this.delivery_status_cd)
+o.setSpotTermInd(this.spot_term_ind)
+if (this.settlement_price == null || this.settlement_price.equals("null"))
+  o.setSettlementPrice(null)
+else o.setSettlementPrice(this.settlement_price.toDouble)
+o.setSettPriceUomCd(this.sett_price_uom_cd)
+o.setSettPriceCurrencyCd(this.sett_price_currency_cd)
+if (this.sett_price_curve_key == null || this.sett_price_curve_key.equals("null"))
+  o.setSettPriceCurveKey(null)
+else o.setSettPriceCurveKey(this.sett_price_curve_key.toLong)
+if (this.sett_price_start_dt == null || this.sett_price_start_dt.equals("null"))
+  o.setSettPriceStartDt(null)
+else o.setSettPriceStartDt(Date.valueOf(
+      ZonedDateTime.parse(this.sett_price_start_dt, DateTimeFormatter.ISO_OFFSET_DATE_TIME).toLocalDate))
+if (this.sett_price_end_dt == null || this.sett_price_end_dt.equals("null"))
+  o.setSettPriceEndDt(null)
+else o.setSettPriceEndDt(Date.valueOf(
+      ZonedDateTime.parse(this.sett_price_end_dt, DateTimeFormatter.ISO_OFFSET_DATE_TIME).toLocalDate))
+o.setSplitPreNextAdt(this.split_pre_next_adt)
+o.setSplitPreNextInd(this.split_pre_next_ind)
+o.setCalWorkDayInd(this.cal_work_day_ind)
+o.setEarlierLaterInd(this.earlier_later_ind)
+o.setTradeEventAtlCd(this.trade_event_atl_cd)
+o.setTradeEventCd(this.trade_event_cd)
+o.setTradePriceTermCd(this.trade_price_term_cd)
+if (this.offset_from_event_alt == null || this.offset_from_event_alt.equals("null"))
+  o.setOffsetFromEventAlt(null)
+else o.setOffsetFromEventAlt(this.offset_from_event_alt.toLong)
+o.setFromAfterInd(this.from_after_ind)
+o.setFromAfterAltInd(this.from_after_alt_ind)
+o.setCalWorkingDaysAltInd(this.cal_working_days_alt_ind)
+if (this.offset_from_event == null || this.offset_from_event.equals("null"))
+  o.setOffsetFromEvent(null)
+else o.setOffsetFromEvent(this.offset_from_event.toLong)
+o.setOffsetMonthCd(this.offset_month_cd)
+if (this.sett_on_day_of_mth_num == null || this.sett_on_day_of_mth_num.equals("null"))
+  o.setSettOnDayOfMthNum(null)
+else o.setSettOnDayOfMthNum(this.sett_on_day_of_mth_num.toLong)
+if (this.fixed_settlement_dt == null || this.fixed_settlement_dt.equals("null"))
+  o.setFixedSettlementDt(null)
+else o.setFixedSettlementDt(Date.valueOf(
+      ZonedDateTime.parse(this.fixed_settlement_dt, DateTimeFormatter.ISO_OFFSET_DATE_TIME).toLocalDate))
+o.setFixedSettlementAdt(this.fixed_settlement_adt)
+if (this.period_before_sett == null || this.period_before_sett.equals("null"))
+  o.setPeriodBeforeSett(null)
+else o.setPeriodBeforeSett(this.period_before_sett.toLong)
+if (this.period_on_sett == null || this.period_on_sett.equals("null"))
+  o.setPeriodOnSett(null)
+else o.setPeriodOnSett(this.period_on_sett.toLong)
+if (this.period_after_sett == null || this.period_after_sett.equals("null"))
+  o.setPeriodAfterSett(null)
+else o.setPeriodAfterSett(this.period_after_sett.toLong)
+if (this.sett_start_day_of_month == null || this.sett_start_day_of_month.equals("null"))
+  o.setSettStartDayOfMonth(null)
+else o.setSettStartDayOfMonth(this.sett_start_day_of_month.toLong)
+if (this.sett_end_day_of_month == null || this.sett_end_day_of_month.equals("null"))
+  o.setSettEndDayOfMonth(null)
+else o.setSettEndDayOfMonth(this.sett_end_day_of_month.toLong)
+if (this.sett_last_day_of_mth_flag == null || this.sett_last_day_of_mth_flag.equals("null"))
+  o.setSettLastDayOfMthFlag(null)
+else o.setSettLastDayOfMthFlag(this.sett_last_day_of_mth_flag == "Y")
+if (this.market_price == null || this.market_price.equals("null"))
+  o.setMarketPrice(null)
+else o.setMarketPrice(this.market_price.toDouble)
+o.setMarketCurrencyCd(this.market_currency_cd)
+o.setMarketUomCd(this.market_uom_cd)
+if (this.market_start_dt == null || this.market_start_dt.equals("null"))
+  o.setMarketStartDt(null)
+else o.setMarketStartDt(Date.valueOf(
+      ZonedDateTime.parse(this.market_start_dt, DateTimeFormatter.ISO_OFFSET_DATE_TIME).toLocalDate))
+if (this.market_end_dt == null || this.market_end_dt.equals("null"))
+  o.setMarketEndDt(null)
+else o.setMarketEndDt(Date.valueOf(
+      ZonedDateTime.parse(this.market_end_dt, DateTimeFormatter.ISO_OFFSET_DATE_TIME).toLocalDate))
+if (this.market_curve_key == null || this.market_curve_key.equals("null"))
+  o.setMarketCurveKey(null)
+else o.setMarketCurveKey(this.market_curve_key.toLong)
+if (this.quantity_amt == null || this.quantity_amt.equals("null"))
+  o.setQuantityAmt(null)
+else o.setQuantityAmt(this.quantity_amt.toDouble)
+o.setQuantityUomCd(this.quantity_uom_cd)
+o.setQuantityBasisCd(this.quantity_basis_cd)
+if (this.quantity_opd_amt == null || this.quantity_opd_amt.equals("null"))
+  o.setQuantityOpdAmt(null)
+else o.setQuantityOpdAmt(this.quantity_opd_amt.toDouble)
+o.setQuantityOpdUomCd(this.quantity_opd_uom_cd)
+if (this.max_quantiy_amt == null || this.max_quantiy_amt.equals("null"))
+  o.setMaxQuantiyAmt(null)
+else o.setMaxQuantiyAmt(this.max_quantiy_amt.toDouble)
+o.setMaxQuantiyUomCd(this.max_quantiy_uom_cd)
+if (this.upwards_tolerance_amt == null || this.upwards_tolerance_amt.equals("null"))
+  o.setUpwardsToleranceAmt(null)
+else o.setUpwardsToleranceAmt(this.upwards_tolerance_amt.toDouble)
+if (this.downwards_tolerance_amt == null || this.downwards_tolerance_amt.equals("null"))
+  o.setDownwardsToleranceAmt(null)
+else o.setDownwardsToleranceAmt(this.downwards_tolerance_amt.toDouble)
+if (this.conversion_factor == null || this.conversion_factor.equals("null"))
+  o.setConversionFactor(null)
+else o.setConversionFactor(this.conversion_factor.toDouble)
+if (this.total_down_tolerance_amt == null || this.total_down_tolerance_amt.equals("null"))
+  o.setTotalDownToleranceAmt(null)
+else o.setTotalDownToleranceAmt(this.total_down_tolerance_amt.toDouble)
+if (this.total_contractual_amt == null || this.total_contractual_amt.equals("null"))
+  o.setTotalContractualAmt(null)
+else o.setTotalContractualAmt(this.total_contractual_amt.toDouble)
+o.setTotalContractualUomCd(this.total_contractual_uom_cd)
+if (this.mtm_value_amt == null || this.mtm_value_amt.equals("null"))
+  o.setMtmValueAmt(null)
+else o.setMtmValueAmt(this.mtm_value_amt.toDouble)
+o.setMtmValueCurrencyCd(this.mtm_value_currency_cd)
+if (this.settlement_value_amt == null || this.settlement_value_amt.equals("null"))
+  o.setSettlementValueAmt(null)
+else o.setSettlementValueAmt(this.settlement_value_amt.toDouble)
+o.setSettlementValueCurrencyCd(this.settlement_value_currency_cd)
+if (this.payment_due_date == null || this.payment_due_date.equals("null"))
+  o.setPaymentDueDate(null)
+else o.setPaymentDueDate(Date.valueOf(
+      ZonedDateTime.parse(this.payment_due_date, DateTimeFormatter.ISO_OFFSET_DATE_TIME).toLocalDate))
+o.setPriceSettleFrequencyCd(this.price_settle_frequency_cd)
+o.setVolumeFeeInd(this.volume_fee_ind)
+if (this.invoice_dt == null || this.invoice_dt.equals("null"))
+  o.setInvoiceDt(null)
+else o.setInvoiceDt(Date.valueOf(
+      ZonedDateTime.parse(this.invoice_dt, DateTimeFormatter.ISO_OFFSET_DATE_TIME).toLocalDate))
+if (this.title_transfer_date == null || this.title_transfer_date.equals("null"))
+  o.setTitleTransferDate(null)
+else o.setTitleTransferDate(Date.valueOf(
+      ZonedDateTime.parse(this.title_transfer_date, DateTimeFormatter.ISO_OFFSET_DATE_TIME).toLocalDate))
+o.setReturnExposureInd(this.return_exposure_ind)
+if (this.src_leg_last_updt_dtm == null || this.src_leg_last_updt_dtm.equals("null"))
+  o.setSrcLegLastUpdtDtm(null)
+else o.setSrcLegLastUpdtDtm(Date.valueOf(
+      ZonedDateTime.parse(this.src_leg_last_updt_dtm, DateTimeFormatter.ISO_OFFSET_DATE_TIME).toLocalDate))
+if (this.opd_last_modified_dt == null || this.opd_last_modified_dt.equals("null"))
+  o.setOpdLastModifiedDt(null)
+else o.setOpdLastModifiedDt(Date.valueOf(
+      ZonedDateTime.parse(this.opd_last_modified_dt, DateTimeFormatter.ISO_OFFSET_DATE_TIME).toLocalDate))
+o.setPaymentSecurityCd(this.payment_security_cd)
+o.setLegCalendarCd(this.leg_calendar_cd)
+if (this.source_valuation_dt == null || this.source_valuation_dt.equals("null"))
+  o.setSourceValuationDt(null)
+else o.setSourceValuationDt(Date.valueOf(
+      ZonedDateTime.parse(this.source_valuation_dt, DateTimeFormatter.ISO_OFFSET_DATE_TIME).toLocalDate))
+if (this.create_dtm == null || this.create_dtm.equals("null"))
+  o.setCreateDtm(null)
+else o.setCreateDtm(Date.valueOf(
+      ZonedDateTime.parse(this.create_dtm, DateTimeFormatter.ISO_OFFSET_DATE_TIME).toLocalDate))
+if (this.last_updt_dtm == null || this.last_updt_dtm.equals("null"))
+  o.setLastUpdtDtm(null)
+else o.setLastUpdtDtm(Date.valueOf(
+      ZonedDateTime.parse(this.last_updt_dtm, DateTimeFormatter.ISO_OFFSET_DATE_TIME).toLocalDate))
+o.setCreateUserId(this.create_user_id)
+o.setUpdateUserId(this.update_user_id)
+if (this.delete_flag == null || this.delete_flag.equals("null"))
+  o.setDeleteFlag(null)
+else o.setDeleteFlag(this.delete_flag == "Y")
+if (this.chain_number == null || this.chain_number.equals("null"))
+  o.setChainNumber(null)
+else o.setChainNumber(this.chain_number.toDouble)
+if (this.provisional_settlement_value == null || this.provisional_settlement_value.equals("null"))
+  o.setProvisionalSettlementValue(null)
+else o.setProvisionalSettlementValue(this.provisional_settlement_value.toDouble)
+if (this.final_settlement_value == null || this.final_settlement_value.equals("null"))
+  o.setFinalSettlementValue(null)
+else o.setFinalSettlementValue(this.final_settlement_value.toDouble)
+if (this.provisional_settlement_date == null || this.provisional_settlement_date.equals("null"))
+  o.setProvisionalSettlementDate(null)
+else o.setProvisionalSettlementDate(
+      ZonedDateTime.parse(this.provisional_settlement_date, DateTimeFormatter.ISO_OFFSET_DATE_TIME).toLocalDate)
+if (this.final_settlement_date == null || this.final_settlement_date.equals("null"))
+  o.setFinalSettlementDate(null)
+else o.setFinalSettlementDate(Date.valueOf(
+      ZonedDateTime.parse(this.final_settlement_date, DateTimeFormatter.ISO_OFFSET_DATE_TIME).toLocalDate))
+o.setPrepayValueStatus(this.prepay_value_status)
+if (this.prepay_final_price == null || this.prepay_final_price.equals("null"))
+  o.setPrepayFinalPrice(null)
+else o.setPrepayFinalPrice(this.prepay_final_price.toDouble)
+if (this.prepay_final_value == null || this.prepay_final_value.equals("null"))
+  o.setPrepayFinalValue(null)
+else o.setPrepayFinalValue(this.prepay_final_value.toDouble)
+o.setPrepayCurrency(this.prepay_currency)
+if (this.prepay_usd_value == null || this.prepay_usd_value.equals("null"))
+  o.setPrepayUsdValue(null)
+else o.setPrepayUsdValue(this.prepay_usd_value.toDouble)
+if (this.prepay_conversion_rate == null || this.prepay_conversion_rate.equals("null"))
+  o.setPrepayConversionRate(null)
+else o.setPrepayConversionRate(this.prepay_conversion_rate.toDouble)
+o.setPrepayPricedOutInd(this.prepay_priced_out_ind)
+if (this.prepay_settlement_date == null || this.prepay_settlement_date.equals("null"))
+  o.setPrepaySettlementDate(null)
+else o.setPrepaySettlementDate(
+      ZonedDateTime.parse(this.prepay_settlement_date, DateTimeFormatter.ISO_OFFSET_DATE_TIME).toLocalDate)
+if (this.prepay_percentage == null || this.prepay_percentage.equals("null"))
+  o.setPrepayPercentage(null)
+else o.setPrepayPercentage(this.prepay_percentage.toDouble)
+if (this.prepay_issuance_date == null || this.prepay_issuance_date.equals("null"))
+  o.setPrepayIssuanceDate(null)
+else o.setPrepayIssuanceDate(
+      ZonedDateTime.parse(this.prepay_issuance_date, DateTimeFormatter.ISO_OFFSET_DATE_TIME).toLocalDate)
+o.setPrepayCalWorkInd(this.prepay_cal_work_ind)
+o.setPrepayFromAfterInd(this.prepay_from_after_ind)

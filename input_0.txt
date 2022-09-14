@@ -1,0 +1,1154 @@
+//
+// Source code recreated from a .class file by IntelliJ IDEA
+// (powered by FernFlower decompiler)
+//
+
+package com.bp.ist.tf.credit.crave.domain.deal.nonRateablePoLeg.impl;
+
+import java.util.Date;
+import org.joda.time.LocalDate;
+
+public class OdsCraveNonRatePoLeg {
+    private String tradeLegKey;
+    private String tradeKey;
+    private String sourceLegStripCd;
+    private String tradeTxnCd;
+    private String tradeTxnKey;
+    private Date periodStartDate;
+    private Date periodEndDate;
+    private Date refreshedDt;
+    private Long commodityId;
+    private String buySellInd;
+    private Long legalAgreement3Key;
+    private Long legalAgreement4Key;
+    private Long legalAgreement5Key;
+    private Long gtcLegalAgreementKey;
+    private Boolean netting3Flag;
+    private Boolean netting4Flag;
+    private Boolean netting5Flag;
+    private Long chainKey;
+    private String csaInd;
+    private String creditRightsAmdInd;
+    private Boolean evergreenFlag;
+    private Long deliveryLocationId;
+    private String transportModeCd;
+    private String transportModeAdt;
+    private Long transportId;
+    private String transportIdAdt;
+    private Date deliveryPeriodStartDt;
+    private Date deliveryPeriodEndDt;
+    private String deliveryTermCd;
+    private String deliveryTermAdtCd;
+    private Date dischargeStartDt;
+    private Date dischargeEndDt;
+    private String dischargeStartDtAdt;
+    private String dischargeEndDtAdt;
+    private Long locationIdDischarge;
+    private Date loadStartDt;
+    private Date loadEndDt;
+    private String loadStartDtAdt;
+    private String loadEndDtAdt;
+    private String deliveryStatusCd;
+    private String spotTermInd;
+    private Double settlementPrice;
+    private String settPriceUomCd;
+    private String settPriceCurrencyCd;
+    private Long settPriceCurveKey;
+    private Date settPriceStartDt;
+    private Date settPriceEndDt;
+    private String splitPreNextAdt;
+    private String splitPreNextInd;
+    private String calWorkDayInd;
+    private String earlierLaterInd;
+    private String tradeEventAtlCd;
+    private String tradeEventCd;
+    private String tradePriceTermCd;
+    private Long offsetFromEventAlt;
+    private String fromAfterInd;
+    private String fromAfterAltInd;
+    private String calWorkingDaysAltInd;
+    private Long offsetFromEvent;
+    private String offsetMonthCd;
+    private Long settOnDayOfMthNum;
+    private Date fixedSettlementDt;
+    private String fixedSettlementAdt;
+    private Long periodBeforeSett;
+    private Long periodOnSett;
+    private Long periodAfterSett;
+    private Long settStartDayOfMonth;
+    private Long settEndDayOfMonth;
+    private Boolean settLastDayOfMthFlag;
+    private Double marketPrice;
+    private String marketCurrencyCd;
+    private String marketUomCd;
+    private Date marketStartDt;
+    private Date marketEndDt;
+    private Long marketCurveKey;
+    private Double quantityAmt;
+    private String quantityUomCd;
+    private String quantityBasisCd;
+    private Double quantityOpdAmt;
+    private String quantityOpdUomCd;
+    private Double maxQuantiyAmt;
+    private String maxQuantiyUomCd;
+    private Double upwardsToleranceAmt;
+    private Double downwardsToleranceAmt;
+    private Double conversionFactor;
+    private Double totalDownToleranceAmt;
+    private Double totalContractualAmt;
+    private String totalContractualUomCd;
+    private Double mtmValueAmt;
+    private String mtmValueCurrencyCd;
+    private Double settlementValueAmt;
+    private String settlementValueCurrencyCd;
+    private Date paymentDueDate;
+    private String priceSettleFrequencyCd;
+    private String volumeFeeInd;
+    private Date invoiceDt;
+    private Date titleTransferDate;
+    private String returnExposureInd;
+    private Date srcLegLastUpdtDtm;
+    private Date opdLastModifiedDt;
+    private String paymentSecurityCd;
+    private String legCalendarCd;
+    private Date sourceValuationDt;
+    private Date createDtm;
+    private Date lastUpdtDtm;
+    private String createUserId;
+    private String updateUserId;
+    private Boolean deleteFlag;
+    private Double chainNumber;
+    private Double provisionalSettlementValue;
+    private Double finalSettlementValue;
+    private LocalDate provisionalSettlementDate;
+    private Date finalSettlementDate;
+    private String prepayValueStatus;
+    private Double prepayFinalPrice;
+    private Double prepayFinalValue;
+    private String prepayCurrency;
+    private Double prepayUsdValue;
+    private Double prepayConversionRate;
+    private String prepayPricedOutInd;
+    private LocalDate prepaySettlementDate;
+    private Double prepayPercentage;
+    private Integer prepayIssuanceDayCount;
+    private LocalDate prepayIssuanceDate;
+    private String prepayCalWorkInd;
+    private String prepayFromAfterInd;
+
+    public OdsCraveNonRatePoLeg() {
+    }
+
+    public String getTradeLegKey() {
+        return this.tradeLegKey;
+    }
+
+    public void setTradeLegKey(String tradeLegKey) {
+        this.tradeLegKey = tradeLegKey;
+    }
+
+    public String getTradeKey() {
+        return this.tradeKey;
+    }
+
+    public void setTradeKey(String tradeKey) {
+        this.tradeKey = tradeKey;
+    }
+
+    public String getSourceLegStripCd() {
+        return this.sourceLegStripCd;
+    }
+
+    public void setSourceLegStripCd(String sourceLegStripCd) {
+        this.sourceLegStripCd = sourceLegStripCd;
+    }
+
+    public String getTradeTxnCd() {
+        return this.tradeTxnCd;
+    }
+
+    public void setTradeTxnCd(String tradeTxnCd) {
+        this.tradeTxnCd = tradeTxnCd;
+    }
+
+    public String getTradeTxnKey() {
+        return this.tradeTxnKey;
+    }
+
+    public void setTradeTxnKey(String tradeTxnKey) {
+        this.tradeTxnKey = tradeTxnKey;
+    }
+
+    public Date getPeriodStartDate() {
+        return this.periodStartDate;
+    }
+
+    public void setPeriodStartDate(Date periodStartDate) {
+        this.periodStartDate = periodStartDate;
+    }
+
+    public Date getPeriodEndDate() {
+        return this.periodEndDate;
+    }
+
+    public void setPeriodEndDate(Date periodEndDate) {
+        this.periodEndDate = periodEndDate;
+    }
+
+    public Date getRefreshedDt() {
+        return this.refreshedDt;
+    }
+
+    public void setRefreshedDt(Date refreshedDt) {
+        this.refreshedDt = refreshedDt;
+    }
+
+    public Long getCommodityId() {
+        return this.commodityId;
+    }
+
+    public void setCommodityId(Long commodityId) {
+        this.commodityId = commodityId;
+    }
+
+    public String getBuySellInd() {
+        return this.buySellInd;
+    }
+
+    public void setBuySellInd(String buySellInd) {
+        this.buySellInd = buySellInd;
+    }
+
+    public Long getLegalAgreement3Key() {
+        return this.legalAgreement3Key;
+    }
+
+    public void setLegalAgreement3Key(Long legalAgreement3Key) {
+        this.legalAgreement3Key = legalAgreement3Key;
+    }
+
+    public Long getLegalAgreement4Key() {
+        return this.legalAgreement4Key;
+    }
+
+    public void setLegalAgreement4Key(Long legalAgreement4Key) {
+        this.legalAgreement4Key = legalAgreement4Key;
+    }
+
+    public Long getLegalAgreement5Key() {
+        return this.legalAgreement5Key;
+    }
+
+    public void setLegalAgreement5Key(Long legalAgreement5Key) {
+        this.legalAgreement5Key = legalAgreement5Key;
+    }
+
+    public Long getGtcLegalAgreementKey() {
+        return this.gtcLegalAgreementKey;
+    }
+
+    public void setGtcLegalAgreementKey(Long gtcLegalAgreementKey) {
+        this.gtcLegalAgreementKey = gtcLegalAgreementKey;
+    }
+
+    public Boolean getNetting3Flag() {
+        return this.netting3Flag;
+    }
+
+    public void setNetting3Flag(Boolean netting3Flag) {
+        this.netting3Flag = netting3Flag;
+    }
+
+    public Boolean getNetting4Flag() {
+        return this.netting4Flag;
+    }
+
+    public void setNetting4Flag(Boolean netting4Flag) {
+        this.netting4Flag = netting4Flag;
+    }
+
+    public Boolean getNetting5Flag() {
+        return this.netting5Flag;
+    }
+
+    public void setNetting5Flag(Boolean netting5Flag) {
+        this.netting5Flag = netting5Flag;
+    }
+
+    public Long getChainKey() {
+        return this.chainKey;
+    }
+
+    public void setChainKey(Long chainKey) {
+        this.chainKey = chainKey;
+    }
+
+    public String getCsaInd() {
+        return this.csaInd;
+    }
+
+    public void setCsaInd(String csaInd) {
+        this.csaInd = csaInd;
+    }
+
+    public String getCreditRightsAmdInd() {
+        return this.creditRightsAmdInd;
+    }
+
+    public void setCreditRightsAmdInd(String creditRightsAmdInd) {
+        this.creditRightsAmdInd = creditRightsAmdInd;
+    }
+
+    public Boolean getEvergreenFlag() {
+        return this.evergreenFlag;
+    }
+
+    public void setEvergreenFlag(Boolean evergreenFlag) {
+        this.evergreenFlag = evergreenFlag;
+    }
+
+    public Long getDeliveryLocationId() {
+        return this.deliveryLocationId;
+    }
+
+    public void setDeliveryLocationId(Long deliveryLocationId) {
+        this.deliveryLocationId = deliveryLocationId;
+    }
+
+    public String getTransportModeCd() {
+        return this.transportModeCd;
+    }
+
+    public void setTransportModeCd(String transportModeCd) {
+        this.transportModeCd = transportModeCd;
+    }
+
+    public String getTransportModeAdt() {
+        return this.transportModeAdt;
+    }
+
+    public void setTransportModeAdt(String transportModeAdt) {
+        this.transportModeAdt = transportModeAdt;
+    }
+
+    public Long getTransportId() {
+        return this.transportId;
+    }
+
+    public void setTransportId(Long transportId) {
+        this.transportId = transportId;
+    }
+
+    public String getTransportIdAdt() {
+        return this.transportIdAdt;
+    }
+
+    public void setTransportIdAdt(String transportIdAdt) {
+        this.transportIdAdt = transportIdAdt;
+    }
+
+    public Date getDeliveryPeriodStartDt() {
+        return this.deliveryPeriodStartDt;
+    }
+
+    public void setDeliveryPeriodStartDt(Date deliveryPeriodStartDt) {
+        this.deliveryPeriodStartDt = deliveryPeriodStartDt;
+    }
+
+    public Date getDeliveryPeriodEndDt() {
+        return this.deliveryPeriodEndDt;
+    }
+
+    public void setDeliveryPeriodEndDt(Date deliveryPeriodEndDt) {
+        this.deliveryPeriodEndDt = deliveryPeriodEndDt;
+    }
+
+    public String getDeliveryTermCd() {
+        return this.deliveryTermCd;
+    }
+
+    public void setDeliveryTermCd(String deliveryTermCd) {
+        this.deliveryTermCd = deliveryTermCd;
+    }
+
+    public String getDeliveryTermAdtCd() {
+        return this.deliveryTermAdtCd;
+    }
+
+    public void setDeliveryTermAdtCd(String deliveryTermAdtCd) {
+        this.deliveryTermAdtCd = deliveryTermAdtCd;
+    }
+
+    public Date getDischargeStartDt() {
+        return this.dischargeStartDt;
+    }
+
+    public void setDischargeStartDt(Date dischargeStartDt) {
+        this.dischargeStartDt = dischargeStartDt;
+    }
+
+    public Date getDischargeEndDt() {
+        return this.dischargeEndDt;
+    }
+
+    public void setDischargeEndDt(Date dischargeEndDt) {
+        this.dischargeEndDt = dischargeEndDt;
+    }
+
+    public String getDischargeStartDtAdt() {
+        return this.dischargeStartDtAdt;
+    }
+
+    public void setDischargeStartDtAdt(String dischargeStartDtAdt) {
+        this.dischargeStartDtAdt = dischargeStartDtAdt;
+    }
+
+    public String getDischargeEndDtAdt() {
+        return this.dischargeEndDtAdt;
+    }
+
+    public void setDischargeEndDtAdt(String dischargeEndDtAdt) {
+        this.dischargeEndDtAdt = dischargeEndDtAdt;
+    }
+
+    public Long getLocationIdDischarge() {
+        return this.locationIdDischarge;
+    }
+
+    public void setLocationIdDischarge(Long locationIdDischarge) {
+        this.locationIdDischarge = locationIdDischarge;
+    }
+
+    public Date getLoadStartDt() {
+        return this.loadStartDt;
+    }
+
+    public void setLoadStartDt(Date loadStartDt) {
+        this.loadStartDt = loadStartDt;
+    }
+
+    public Date getLoadEndDt() {
+        return this.loadEndDt;
+    }
+
+    public void setLoadEndDt(Date loadEndDt) {
+        this.loadEndDt = loadEndDt;
+    }
+
+    public String getLoadStartDtAdt() {
+        return this.loadStartDtAdt;
+    }
+
+    public void setLoadStartDtAdt(String loadStartDtAdt) {
+        this.loadStartDtAdt = loadStartDtAdt;
+    }
+
+    public String getLoadEndDtAdt() {
+        return this.loadEndDtAdt;
+    }
+
+    public void setLoadEndDtAdt(String loadEndDtAdt) {
+        this.loadEndDtAdt = loadEndDtAdt;
+    }
+
+    public String getDeliveryStatusCd() {
+        return this.deliveryStatusCd;
+    }
+
+    public void setDeliveryStatusCd(String deliveryStatusCd) {
+        this.deliveryStatusCd = deliveryStatusCd;
+    }
+
+    public String getSpotTermInd() {
+        return this.spotTermInd;
+    }
+
+    public void setSpotTermInd(String spotTermInd) {
+        this.spotTermInd = spotTermInd;
+    }
+
+    public Double getSettlementPrice() {
+        return this.settlementPrice;
+    }
+
+    public void setSettlementPrice(Double settlementPrice) {
+        this.settlementPrice = settlementPrice;
+    }
+
+    public String getSettPriceUomCd() {
+        return this.settPriceUomCd;
+    }
+
+    public void setSettPriceUomCd(String settPriceUomCd) {
+        this.settPriceUomCd = settPriceUomCd;
+    }
+
+    public String getSettPriceCurrencyCd() {
+        return this.settPriceCurrencyCd;
+    }
+
+    public void setSettPriceCurrencyCd(String settPriceCurrencyCd) {
+        this.settPriceCurrencyCd = settPriceCurrencyCd;
+    }
+
+    public Long getSettPriceCurveKey() {
+        return this.settPriceCurveKey;
+    }
+
+    public void setSettPriceCurveKey(Long settPriceCurveKey) {
+        this.settPriceCurveKey = settPriceCurveKey;
+    }
+
+    public Date getSettPriceStartDt() {
+        return this.settPriceStartDt;
+    }
+
+    public void setSettPriceStartDt(Date settPriceStartDt) {
+        this.settPriceStartDt = settPriceStartDt;
+    }
+
+    public Date getSettPriceEndDt() {
+        return this.settPriceEndDt;
+    }
+
+    public void setSettPriceEndDt(Date settPriceEndDt) {
+        this.settPriceEndDt = settPriceEndDt;
+    }
+
+    public String getSplitPreNextAdt() {
+        return this.splitPreNextAdt;
+    }
+
+    public void setSplitPreNextAdt(String splitPreNextAdt) {
+        this.splitPreNextAdt = splitPreNextAdt;
+    }
+
+    public String getSplitPreNextInd() {
+        return this.splitPreNextInd;
+    }
+
+    public void setSplitPreNextInd(String splitPreNextInd) {
+        this.splitPreNextInd = splitPreNextInd;
+    }
+
+    public String getCalWorkDayInd() {
+        return this.calWorkDayInd;
+    }
+
+    public void setCalWorkDayInd(String calWorkDayInd) {
+        this.calWorkDayInd = calWorkDayInd;
+    }
+
+    public String getEarlierLaterInd() {
+        return this.earlierLaterInd;
+    }
+
+    public void setEarlierLaterInd(String earlierLaterInd) {
+        this.earlierLaterInd = earlierLaterInd;
+    }
+
+    public String getTradeEventAtlCd() {
+        return this.tradeEventAtlCd;
+    }
+
+    public void setTradeEventAtlCd(String tradeEventAtlCd) {
+        this.tradeEventAtlCd = tradeEventAtlCd;
+    }
+
+    public String getTradeEventCd() {
+        return this.tradeEventCd;
+    }
+
+    public void setTradeEventCd(String tradeEventCd) {
+        this.tradeEventCd = tradeEventCd;
+    }
+
+    public String getTradePriceTermCd() {
+        return this.tradePriceTermCd;
+    }
+
+    public void setTradePriceTermCd(String tradePriceTermCd) {
+        this.tradePriceTermCd = tradePriceTermCd;
+    }
+
+    public Long getOffsetFromEventAlt() {
+        return this.offsetFromEventAlt;
+    }
+
+    public void setOffsetFromEventAlt(Long offsetFromEventAlt) {
+        this.offsetFromEventAlt = offsetFromEventAlt;
+    }
+
+    public String getFromAfterInd() {
+        return this.fromAfterInd;
+    }
+
+    public void setFromAfterInd(String fromAfterInd) {
+        this.fromAfterInd = fromAfterInd;
+    }
+
+    public String getFromAfterAltInd() {
+        return this.fromAfterAltInd;
+    }
+
+    public void setFromAfterAltInd(String fromAfterAltInd) {
+        this.fromAfterAltInd = fromAfterAltInd;
+    }
+
+    public String getCalWorkingDaysAltInd() {
+        return this.calWorkingDaysAltInd;
+    }
+
+    public void setCalWorkingDaysAltInd(String calWorkingDaysAltInd) {
+        this.calWorkingDaysAltInd = calWorkingDaysAltInd;
+    }
+
+    public Long getOffsetFromEvent() {
+        return this.offsetFromEvent;
+    }
+
+    public void setOffsetFromEvent(Long offsetFromEvent) {
+        this.offsetFromEvent = offsetFromEvent;
+    }
+
+    public String getOffsetMonthCd() {
+        return this.offsetMonthCd;
+    }
+
+    public void setOffsetMonthCd(String offsetMonthCd) {
+        this.offsetMonthCd = offsetMonthCd;
+    }
+
+    public Long getSettOnDayOfMthNum() {
+        return this.settOnDayOfMthNum;
+    }
+
+    public void setSettOnDayOfMthNum(Long settOnDayOfMthNum) {
+        this.settOnDayOfMthNum = settOnDayOfMthNum;
+    }
+
+    public Date getFixedSettlementDt() {
+        return this.fixedSettlementDt;
+    }
+
+    public void setFixedSettlementDt(Date fixedSettlementDt) {
+        this.fixedSettlementDt = fixedSettlementDt;
+    }
+
+    public String getFixedSettlementAdt() {
+        return this.fixedSettlementAdt;
+    }
+
+    public void setFixedSettlementAdt(String fixedSettlementAdt) {
+        this.fixedSettlementAdt = fixedSettlementAdt;
+    }
+
+    public Long getPeriodBeforeSett() {
+        return this.periodBeforeSett;
+    }
+
+    public void setPeriodBeforeSett(Long periodBeforeSett) {
+        this.periodBeforeSett = periodBeforeSett;
+    }
+
+    public Long getPeriodOnSett() {
+        return this.periodOnSett;
+    }
+
+    public void setPeriodOnSett(Long periodOnSett) {
+        this.periodOnSett = periodOnSett;
+    }
+
+    public Long getPeriodAfterSett() {
+        return this.periodAfterSett;
+    }
+
+    public void setPeriodAfterSett(Long periodAfterSett) {
+        this.periodAfterSett = periodAfterSett;
+    }
+
+    public Long getSettStartDayOfMonth() {
+        return this.settStartDayOfMonth;
+    }
+
+    public void setSettStartDayOfMonth(Long settStartDayOfMonth) {
+        this.settStartDayOfMonth = settStartDayOfMonth;
+    }
+
+    public Long getSettEndDayOfMonth() {
+        return this.settEndDayOfMonth;
+    }
+
+    public void setSettEndDayOfMonth(Long settEndDayOfMonth) {
+        this.settEndDayOfMonth = settEndDayOfMonth;
+    }
+
+    public Boolean getSettLastDayOfMthFlag() {
+        return this.settLastDayOfMthFlag;
+    }
+
+    public void setSettLastDayOfMthFlag(Boolean settLastDayOfMthFlag) {
+        this.settLastDayOfMthFlag = settLastDayOfMthFlag;
+    }
+
+    public Double getMarketPrice() {
+        return this.marketPrice;
+    }
+
+    public void setMarketPrice(Double marketPrice) {
+        this.marketPrice = marketPrice;
+    }
+
+    public String getMarketCurrencyCd() {
+        return this.marketCurrencyCd;
+    }
+
+    public void setMarketCurrencyCd(String marketCurrencyCd) {
+        this.marketCurrencyCd = marketCurrencyCd;
+    }
+
+    public String getMarketUomCd() {
+        return this.marketUomCd;
+    }
+
+    public void setMarketUomCd(String marketUomCd) {
+        this.marketUomCd = marketUomCd;
+    }
+
+    public Date getMarketStartDt() {
+        return this.marketStartDt;
+    }
+
+    public void setMarketStartDt(Date marketStartDt) {
+        this.marketStartDt = marketStartDt;
+    }
+
+    public Date getMarketEndDt() {
+        return this.marketEndDt;
+    }
+
+    public void setMarketEndDt(Date marketEndDt) {
+        this.marketEndDt = marketEndDt;
+    }
+
+    public Long getMarketCurveKey() {
+        return this.marketCurveKey;
+    }
+
+    public void setMarketCurveKey(Long marketCurveKey) {
+        this.marketCurveKey = marketCurveKey;
+    }
+
+    public Double getQuantityAmt() {
+        return this.quantityAmt;
+    }
+
+    public void setQuantityAmt(Double quantityAmt) {
+        this.quantityAmt = quantityAmt;
+    }
+
+    public String getQuantityUomCd() {
+        return this.quantityUomCd;
+    }
+
+    public void setQuantityUomCd(String quantityUomCd) {
+        this.quantityUomCd = quantityUomCd;
+    }
+
+    public String getQuantityBasisCd() {
+        return this.quantityBasisCd;
+    }
+
+    public void setQuantityBasisCd(String quantityBasisCd) {
+        this.quantityBasisCd = quantityBasisCd;
+    }
+
+    public Double getQuantityOpdAmt() {
+        return this.quantityOpdAmt;
+    }
+
+    public void setQuantityOpdAmt(Double quantityOpdAmt) {
+        this.quantityOpdAmt = quantityOpdAmt;
+    }
+
+    public String getQuantityOpdUomCd() {
+        return this.quantityOpdUomCd;
+    }
+
+    public void setQuantityOpdUomCd(String quantityOpdUomCd) {
+        this.quantityOpdUomCd = quantityOpdUomCd;
+    }
+
+    public Double getMaxQuantiyAmt() {
+        return this.maxQuantiyAmt;
+    }
+
+    public void setMaxQuantiyAmt(Double maxQuantiyAmt) {
+        this.maxQuantiyAmt = maxQuantiyAmt;
+    }
+
+    public String getMaxQuantiyUomCd() {
+        return this.maxQuantiyUomCd;
+    }
+
+    public void setMaxQuantiyUomCd(String maxQuantiyUomCd) {
+        this.maxQuantiyUomCd = maxQuantiyUomCd;
+    }
+
+    public Double getUpwardsToleranceAmt() {
+        return this.upwardsToleranceAmt;
+    }
+
+    public void setUpwardsToleranceAmt(Double upwardsToleranceAmt) {
+        this.upwardsToleranceAmt = upwardsToleranceAmt;
+    }
+
+    public Double getDownwardsToleranceAmt() {
+        return this.downwardsToleranceAmt;
+    }
+
+    public void setDownwardsToleranceAmt(Double downwardsToleranceAmt) {
+        this.downwardsToleranceAmt = downwardsToleranceAmt;
+    }
+
+    public Double getConversionFactor() {
+        return this.conversionFactor;
+    }
+
+    public void setConversionFactor(Double conversionFactor) {
+        this.conversionFactor = conversionFactor;
+    }
+
+    public Double getTotalDownToleranceAmt() {
+        return this.totalDownToleranceAmt;
+    }
+
+    public void setTotalDownToleranceAmt(Double totalDownToleranceAmt) {
+        this.totalDownToleranceAmt = totalDownToleranceAmt;
+    }
+
+    public Double getTotalContractualAmt() {
+        return this.totalContractualAmt;
+    }
+
+    public void setTotalContractualAmt(Double totalContractualAmt) {
+        this.totalContractualAmt = totalContractualAmt;
+    }
+
+    public String getTotalContractualUomCd() {
+        return this.totalContractualUomCd;
+    }
+
+    public void setTotalContractualUomCd(String totalContractualUomCd) {
+        this.totalContractualUomCd = totalContractualUomCd;
+    }
+
+    public Double getMtmValueAmt() {
+        return this.mtmValueAmt;
+    }
+
+    public void setMtmValueAmt(Double mtmValueAmt) {
+        this.mtmValueAmt = mtmValueAmt;
+    }
+
+    public String getMtmValueCurrencyCd() {
+        return this.mtmValueCurrencyCd;
+    }
+
+    public void setMtmValueCurrencyCd(String mtmValueCurrencyCd) {
+        this.mtmValueCurrencyCd = mtmValueCurrencyCd;
+    }
+
+    public Double getSettlementValueAmt() {
+        return this.settlementValueAmt;
+    }
+
+    public void setSettlementValueAmt(Double settlementValueAmt) {
+        this.settlementValueAmt = settlementValueAmt;
+    }
+
+    public String getSettlementValueCurrencyCd() {
+        return this.settlementValueCurrencyCd;
+    }
+
+    public void setSettlementValueCurrencyCd(String settlementValueCurrencyCd) {
+        this.settlementValueCurrencyCd = settlementValueCurrencyCd;
+    }
+
+    public Date getPaymentDueDate() {
+        return this.paymentDueDate;
+    }
+
+    public void setPaymentDueDate(Date paymentDueDate) {
+        this.paymentDueDate = paymentDueDate;
+    }
+
+    public String getPriceSettleFrequencyCd() {
+        return this.priceSettleFrequencyCd;
+    }
+
+    public void setPriceSettleFrequencyCd(String priceSettleFrequencyCd) {
+        this.priceSettleFrequencyCd = priceSettleFrequencyCd;
+    }
+
+    public String getVolumeFeeInd() {
+        return this.volumeFeeInd;
+    }
+
+    public void setVolumeFeeInd(String volumeFeeInd) {
+        this.volumeFeeInd = volumeFeeInd;
+    }
+
+    public Date getInvoiceDt() {
+        return this.invoiceDt;
+    }
+
+    public void setInvoiceDt(Date invoiceDt) {
+        this.invoiceDt = invoiceDt;
+    }
+
+    public Date getTitleTransferDate() {
+        return this.titleTransferDate;
+    }
+
+    public void setTitleTransferDate(Date titleTransferDate) {
+        this.titleTransferDate = titleTransferDate;
+    }
+
+    public String getReturnExposureInd() {
+        return this.returnExposureInd;
+    }
+
+    public void setReturnExposureInd(String returnExposureInd) {
+        this.returnExposureInd = returnExposureInd;
+    }
+
+    public Date getSrcLegLastUpdtDtm() {
+        return this.srcLegLastUpdtDtm;
+    }
+
+    public void setSrcLegLastUpdtDtm(Date srcLegLastUpdtDtm) {
+        this.srcLegLastUpdtDtm = srcLegLastUpdtDtm;
+    }
+
+    public Date getOpdLastModifiedDt() {
+        return this.opdLastModifiedDt;
+    }
+
+    public void setOpdLastModifiedDt(Date opdLastModifiedDt) {
+        this.opdLastModifiedDt = opdLastModifiedDt;
+    }
+
+    public String getPaymentSecurityCd() {
+        return this.paymentSecurityCd;
+    }
+
+    public void setPaymentSecurityCd(String paymentSecurityCd) {
+        this.paymentSecurityCd = paymentSecurityCd;
+    }
+
+    public String getLegCalendarCd() {
+        return this.legCalendarCd;
+    }
+
+    public void setLegCalendarCd(String legCalendarCd) {
+        this.legCalendarCd = legCalendarCd;
+    }
+
+    public Date getSourceValuationDt() {
+        return this.sourceValuationDt;
+    }
+
+    public void setSourceValuationDt(Date sourceValuationDt) {
+        this.sourceValuationDt = sourceValuationDt;
+    }
+
+    public Date getCreateDtm() {
+        return this.createDtm;
+    }
+
+    public void setCreateDtm(Date createDtm) {
+        this.createDtm = createDtm;
+    }
+
+    public Date getLastUpdtDtm() {
+        return this.lastUpdtDtm;
+    }
+
+    public void setLastUpdtDtm(Date lastUpdtDtm) {
+        this.lastUpdtDtm = lastUpdtDtm;
+    }
+
+    public String getCreateUserId() {
+        return this.createUserId;
+    }
+
+    public void setCreateUserId(String createUserId) {
+        this.createUserId = createUserId;
+    }
+
+    public String getUpdateUserId() {
+        return this.updateUserId;
+    }
+
+    public void setUpdateUserId(String updateUserId) {
+        this.updateUserId = updateUserId;
+    }
+
+    public Boolean getDeleteFlag() {
+        return this.deleteFlag;
+    }
+
+    public void setDeleteFlag(Boolean deleteFlag) {
+        this.deleteFlag = deleteFlag;
+    }
+
+    public Double getChainNumber() {
+        return this.chainNumber;
+    }
+
+    public void setChainNumber(Double chainNumber) {
+        this.chainNumber = chainNumber;
+    }
+
+    public Double getProvisionalSettlementValue() {
+        return this.provisionalSettlementValue;
+    }
+
+    public void setProvisionalSettlementValue(Double provisionalSettlementValue) {
+        this.provisionalSettlementValue = provisionalSettlementValue;
+    }
+
+    public Double getFinalSettlementValue() {
+        return this.finalSettlementValue;
+    }
+
+    public void setFinalSettlementValue(Double finalSettlementValue) {
+        this.finalSettlementValue = finalSettlementValue;
+    }
+
+    public LocalDate getProvisionalSettlementDate() {
+        return this.provisionalSettlementDate;
+    }
+
+    public void setProvisionalSettlementDate(LocalDate provisionalSettlementDate) {
+        this.provisionalSettlementDate = provisionalSettlementDate;
+    }
+
+    public Date getFinalSettlementDate() {
+        return this.finalSettlementDate;
+    }
+
+    public void setFinalSettlementDate(Date finalSettlementDate) {
+        this.finalSettlementDate = finalSettlementDate;
+    }
+
+    public String getPrepayValueStatus() {
+        return this.prepayValueStatus;
+    }
+
+    public void setPrepayValueStatus(String prepayValueStatus) {
+        this.prepayValueStatus = prepayValueStatus;
+    }
+
+    public Double getPrepayFinalPrice() {
+        return this.prepayFinalPrice;
+    }
+
+    public void setPrepayFinalPrice(Double prepayFinalPrice) {
+        this.prepayFinalPrice = prepayFinalPrice;
+    }
+
+    public Double getPrepayFinalValue() {
+        return this.prepayFinalValue;
+    }
+
+    public void setPrepayFinalValue(Double prepayFinalValue) {
+        this.prepayFinalValue = prepayFinalValue;
+    }
+
+    public String getPrepayCurrency() {
+        return this.prepayCurrency;
+    }
+
+    public void setPrepayCurrency(String prepayCurrency) {
+        this.prepayCurrency = prepayCurrency;
+    }
+
+    public Double getPrepayUsdValue() {
+        return this.prepayUsdValue;
+    }
+
+    public void setPrepayUsdValue(Double prepayUsdValue) {
+        this.prepayUsdValue = prepayUsdValue;
+    }
+
+    public Double getPrepayConversionRate() {
+        return this.prepayConversionRate;
+    }
+
+    public void setPrepayConversionRate(Double prepayConversionRate) {
+        this.prepayConversionRate = prepayConversionRate;
+    }
+
+    public String getPrepayPricedOutInd() {
+        return this.prepayPricedOutInd;
+    }
+
+    public void setPrepayPricedOutInd(String prepayPricedOutInd) {
+        this.prepayPricedOutInd = prepayPricedOutInd;
+    }
+
+    public LocalDate getPrepaySettlementDate() {
+        return this.prepaySettlementDate;
+    }
+
+    public void setPrepaySettlementDate(LocalDate prepaySettlementDate) {
+        this.prepaySettlementDate = prepaySettlementDate;
+    }
+
+    public Double getPrepayPercentage() {
+        return this.prepayPercentage;
+    }
+
+    public void setPrepayPercentage(Double prepayPercentage) {
+        this.prepayPercentage = prepayPercentage;
+    }
+
+    public Integer getPrepayIssuanceDayCount() {
+        return this.prepayIssuanceDayCount;
+    }
+
+    public void setPrepayIssuanceDayCount(Integer prepayIssuanceDayCount) {
+        this.prepayIssuanceDayCount = prepayIssuanceDayCount;
+    }
+
+    public LocalDate getPrepayIssuanceDate() {
+        return this.prepayIssuanceDate;
+    }
+
+    public void setPrepayIssuanceDate(LocalDate prepayIssuanceDate) {
+        this.prepayIssuanceDate = prepayIssuanceDate;
+    }
+
+    public String getPrepayCalWorkInd() {
+        return this.prepayCalWorkInd;
+    }
+
+    public void setPrepayCalWorkInd(String prepayCalWorkInd) {
+        this.prepayCalWorkInd = prepayCalWorkInd;
+    }
+
+    public String getPrepayFromAfterInd() {
+        return this.prepayFromAfterInd;
+    }
+
+    public void setPrepayFromAfterInd(String prepayFromAfterInd) {
+        this.prepayFromAfterInd = prepayFromAfterInd;
+    }
+
+    public String toString() {
+        String var10000 = "OdsCraveNonRatePoLeg [tradeLegKey=" + this.tradeLegKey + ", tradeKey=" + this.tradeKey + ", sourceLegStripCd=" + this.sourceLegStripCd + ", tradeTxnCd=" + this.tradeTxnCd + ", tradeTxnKey=" + this.tradeTxnKey + ", periodStartDate=" + this.periodStartDate + ", periodEndDate=" + this.periodEndDate + ", refreshedDt=" + this.refreshedDt + ", commodityId=" + this.commodityId + ", buySellInd=" + this.buySellInd + ", legalAgreement3Key=" + this.legalAgreement3Key + ", legalAgreement4Key=" + this.legalAgreement4Key + ", legalAgreement5Key=" + this.legalAgreement5Key + ", gtcLegalAgreementKey=" + this.gtcLegalAgreementKey + ", netting3Flag=" + this.netting3Flag + ", netting4Flag=" + this.netting4Flag + ", netting5Flag=" + this.netting5Flag + ", chainKey=" + this.chainKey + ", csaInd=" + this.csaInd + ", creditRightsAmdInd=" + this.creditRightsAmdInd + ", evergreenFlag=" + this.evergreenFlag + ", deliveryLocationId=" + this.deliveryLocationId + ", transportModeCd=" + this.transportModeCd + ", transportModeAdt=" + this.transportModeAdt + ", transportId=" + this.transportId + ", transportIdAdt=" + this.transportIdAdt + ", deliveryPeriodStartDt=" + this.deliveryPeriodStartDt + ", deliveryPeriodEndDt=" + this.deliveryPeriodEndDt + ", deliveryTermCd=" + this.deliveryTermCd + ", deliveryTermAdtCd=" + this.deliveryTermAdtCd + ", dischargeStartDt=" + this.dischargeStartDt + ", dischargeEndDt=" + this.dischargeEndDt + ", dischargeStartDtAdt=" + this.dischargeStartDtAdt + ", dischargeEndDtAdt=" + this.dischargeEndDtAdt + ", locationIdDischarge=" + this.locationIdDischarge + ", loadStartDt=" + this.loadStartDt + ", loadEndDt=" + this.loadEndDt + ", loadStartDtAdt=" + this.loadStartDtAdt + ", loadEndDtAdt=" + this.loadEndDtAdt + ", deliveryStatusCd=" + this.deliveryStatusCd + ", spotTermInd=" + this.spotTermInd + ", settlementPrice=" + this.settlementPrice + ", settPriceUomCd=" + this.settPriceUomCd + ", settPriceCurrencyCd=" + this.settPriceCurrencyCd + ", settPriceCurveKey=" + this.settPriceCurveKey + ", settPriceStartDt=" + this.settPriceStartDt + ", settPriceEndDt=" + this.settPriceEndDt + ", splitPreNextAdt=" + this.splitPreNextAdt + ", splitPreNextInd=" + this.splitPreNextInd + ", calWorkDayInd=" + this.calWorkDayInd + ", earlierLaterInd=" + this.earlierLaterInd + ", tradeEventAtlCd=" + this.tradeEventAtlCd + ", tradeEventCd=" + this.tradeEventCd + ", tradePriceTermCd=" + this.tradePriceTermCd + ", offsetFromEventAlt=" + this.offsetFromEventAlt + ", fromAfterInd=" + this.fromAfterInd + ", fromAfterAltInd=" + this.fromAfterAltInd + ", calWorkingDaysAltInd=" + this.calWorkingDaysAltInd + ", offsetFromEvent=" + this.offsetFromEvent + ", offsetMonthCd=" + this.offsetMonthCd + ", settOnDayOfMthNum=" + this.settOnDayOfMthNum + ", fixedSettlementDt=" + this.fixedSettlementDt + ", fixedSettlementAdt=" + this.fixedSettlementAdt + ", periodBeforeSett=" + this.periodBeforeSett + ", periodOnSett=" + this.periodOnSett + ", periodAfterSett=" + this.periodAfterSett + ", settStartDayOfMonth=" + this.settStartDayOfMonth + ", settEndDayOfMonth=" + this.settEndDayOfMonth + ", settLastDayOfMthFlag=" + this.settLastDayOfMthFlag + ", marketPrice=" + this.marketPrice + ", marketCurrencyCd=" + this.marketCurrencyCd + ", marketUomCd=" + this.marketUomCd + ", marketStartDt=" + this.marketStartDt + ", marketEndDt=" + this.marketEndDt + ", marketCurveKey=" + this.marketCurveKey + ", quantityAmt=" + this.quantityAmt + ", quantityUomCd=" + this.quantityUomCd + ", quantityBasisCd=" + this.quantityBasisCd + ", quantityOpdAmt=" + this.quantityOpdAmt + ", quantityOpdUomCd=" + this.quantityOpdUomCd + ", maxQuantiyAmt=" + this.maxQuantiyAmt + ", maxQuantiyUomCd=" + this.maxQuantiyUomCd + ", upwardsToleranceAmt=" + this.upwardsToleranceAmt + ", downwardsToleranceAmt=" + this.downwardsToleranceAmt + ", conversionFactor=" + this.conversionFactor + ", totalDownToleranceAmt=" + this.totalDownToleranceAmt + ", totalContractualAmt=" + this.totalContractualAmt + ", totalContractualUomCd=" + this.totalContractualUomCd + ", mtmValueAmt=" + this.mtmValueAmt + ", mtmValueCurrencyCd=" + this.mtmValueCurrencyCd + ", settlementValueAmt=" + this.settlementValueAmt + ", settlementValueCurrencyCd=" + this.settlementValueCurrencyCd + ", paymentDueDate=" + this.paymentDueDate + ", priceSettleFrequencyCd=" + this.priceSettleFrequencyCd + ", volumeFeeInd=" + this.volumeFeeInd + ", invoiceDt=" + this.invoiceDt + ", titleTransferDate=" + this.titleTransferDate + ", returnExposureInd=" + this.returnExposureInd + ", srcLegLastUpdtDtm=" + this.srcLegLastUpdtDtm + ", opdLastModifiedDt=";
+        return var10000 + this.opdLastModifiedDt + ", paymentSecurityCd=" + this.paymentSecurityCd + ", legCalendarCd=" + this.legCalendarCd + ", sourceValuationDt=" + this.sourceValuationDt + ", createDtm=" + this.createDtm + ", lastUpdtDtm=" + this.lastUpdtDtm + ", createUserId=" + this.createUserId + ", updateUserId=" + this.updateUserId + ", deleteFlag=" + this.deleteFlag + ", chainNumber=" + this.chainNumber + ", provisionalSettlementValue=" + this.provisionalSettlementValue + ", finalSettlementValue=" + this.finalSettlementValue + ", provisionalSettlementDate=" + this.provisionalSettlementDate + ", finalSettlementDate=" + this.finalSettlementDate + ", prepayValueStatus=" + this.prepayValueStatus + ", prepayFinalPrice=" + this.prepayFinalPrice + ", prepayFinalValue=" + this.prepayFinalValue + ", prepayCurrency=" + this.prepayCurrency + ", prepayUsdValue=" + this.prepayUsdValue + ", prepayConversionRate=" + this.prepayConversionRate + ", prepayPricedOutInd=" + this.prepayPricedOutInd + ", prepaySettlementDate=" + this.prepaySettlementDate + ", prepayPercentage=" + this.prepayPercentage + ", prepayIssuanceDayCount=" + this.prepayIssuanceDayCount + ", prepayIssuanceDate=" + this.prepayIssuanceDate + ", prepayCalWorkInd=" + this.prepayCalWorkInd + ", prepayFromAfterInd=" + this.prepayFromAfterInd + "]";
+    }
+}

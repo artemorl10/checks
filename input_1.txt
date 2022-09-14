@@ -1,0 +1,305 @@
+package com.bp.ist.tf.credit.crave.domain.deal.nonRateablePoParcel.impl;
+
+import java.util.Date;
+
+public class OdsCraveNonRatePoParcel {
+    private String tradeShipmentParcelKey;
+
+    private String tradeLegKey;
+
+    private String tradeKey;
+
+    private String sourceTradeCd;
+
+    private String sourceLegStripCd;
+
+    private String sourceShipmentCd;
+
+    private String sourceParcelCd;
+
+    private String tradeTxnCd;
+
+    private String tradeTxnKey;
+
+    private Date refreshedDt;
+
+    private Boolean zeroedOutFlag;
+
+    private Long locationIdLoad;
+
+    private Date billOfLadingDt;
+
+    private Date completeDischargeDt;
+
+    private String completeDischargeAdt;
+
+    private Date norForDischargeDt;
+
+    private Date norForLoadDt;
+
+    private String pipelineBatchNum;
+
+    private String scheduler;
+
+    private Boolean bookoutFlag;
+
+    private Date bookoutDt;
+
+    private Date bookoutSettlementDt;
+
+    private String settStartMonthCd;
+
+    private String settPeriodTypeCd;
+
+    private String shipmentStatusCd;
+
+    private Date createDtm;
+
+    private Date lastUpdtDtm;
+
+    private String createUserId;
+
+    private String updateUserId;
+
+    private Boolean deleteFlag;
+
+    public String getTradeShipmentParcelKey() {
+        return tradeShipmentParcelKey;
+    }
+
+    public void setTradeShipmentParcelKey(String tradeShipmentParcelKey) {
+        this.tradeShipmentParcelKey = tradeShipmentParcelKey;
+    }
+
+    public String getTradeLegKey() {
+        return tradeLegKey;
+    }
+
+    public void setTradeLegKey(String tradeLegKey) {
+        this.tradeLegKey = tradeLegKey;
+    }
+
+    public String getTradeKey() {
+        return tradeKey;
+    }
+
+    public void setTradeKey(String tradeKey) {
+        this.tradeKey = tradeKey;
+    }
+
+    public String getSourceTradeCd() {
+        return sourceTradeCd;
+    }
+
+    public void setSourceTradeCd(String sourceTradeCd) {
+        this.sourceTradeCd = sourceTradeCd;
+    }
+
+    public String getSourceLegStripCd() {
+        return sourceLegStripCd;
+    }
+
+    public void setSourceLegStripCd(String sourceLegStripCd) {
+        this.sourceLegStripCd = sourceLegStripCd;
+    }
+
+    public String getSourceShipmentCd() {
+        return sourceShipmentCd;
+    }
+
+    public void setSourceShipmentCd(String sourceShipmentCd) {
+        this.sourceShipmentCd = sourceShipmentCd;
+    }
+
+    public String getSourceParcelCd() {
+        return sourceParcelCd;
+    }
+
+    public void setSourceParcelCd(String sourceParcelCd) {
+        this.sourceParcelCd = sourceParcelCd;
+    }
+
+    public String getTradeTxnCd() {
+        return tradeTxnCd;
+    }
+
+    public void setTradeTxnCd(String tradeTxnCd) {
+        this.tradeTxnCd = tradeTxnCd;
+    }
+
+    public String getTradeTxnKey() {
+        return tradeTxnKey;
+    }
+
+    public void setTradeTxnKey(String tradeTxnKey) {
+        this.tradeTxnKey = tradeTxnKey;
+    }
+
+    public Date getRefreshedDt() {
+        return refreshedDt;
+    }
+
+    public void setRefreshedDt(Date refreshedDt) {
+        this.refreshedDt = refreshedDt;
+    }
+
+    public Boolean getZeroedOutFlag() {
+        return zeroedOutFlag;
+    }
+
+    public void setZeroedOutFlag(Boolean zeroedOutFlag) {
+        this.zeroedOutFlag = zeroedOutFlag;
+    }
+
+    public Long getLocationIdLoad() {
+        return locationIdLoad;
+    }
+
+    public void setLocationIdLoad(Long locationIdLoad) {
+        this.locationIdLoad = locationIdLoad;
+    }
+
+    public Date getBillOfLadingDt() {
+        return billOfLadingDt;
+    }
+
+    public void setBillOfLadingDt(Date billOfLadingDt) {
+        this.billOfLadingDt = billOfLadingDt;
+    }
+
+    public Date getCompleteDischargeDt() {
+        return completeDischargeDt;
+    }
+
+    public void setCompleteDischargeDt(Date completeDischargeDt) {
+        this.completeDischargeDt = completeDischargeDt;
+    }
+
+    public String getCompleteDischargeAdt() {
+        return completeDischargeAdt;
+    }
+
+    public void setCompleteDischargeAdt(String completeDischargeAdt) {
+        this.completeDischargeAdt = completeDischargeAdt;
+    }
+
+    public Date getNorForDischargeDt() {
+        return norForDischargeDt;
+    }
+
+    public void setNorForDischargeDt(Date norForDischargeDt) {
+        this.norForDischargeDt = norForDischargeDt;
+    }
+
+    public Date getNorForLoadDt() {
+        return norForLoadDt;
+    }
+
+    public void setNorForLoadDt(Date norForLoadDt) {
+        this.norForLoadDt = norForLoadDt;
+    }
+
+    public String getPipelineBatchNum() {
+        return pipelineBatchNum;
+    }
+
+    public void setPipelineBatchNum(String pipelineBatchNum) {
+        this.pipelineBatchNum = pipelineBatchNum;
+    }
+
+    public String getScheduler() {
+        return scheduler;
+    }
+
+    public void setScheduler(String scheduler) {
+        this.scheduler = scheduler;
+    }
+
+    public Boolean getBookoutFlag() {
+        return bookoutFlag;
+    }
+
+    public void setBookoutFlag(Boolean bookoutFlag) {
+        this.bookoutFlag = bookoutFlag;
+    }
+
+    public Date getBookoutDt() {
+        return bookoutDt;
+    }
+
+    public void setBookoutDt(Date bookoutDt) {
+        this.bookoutDt = bookoutDt;
+    }
+
+    public Date getBookoutSettlementDt() {
+        return bookoutSettlementDt;
+    }
+
+    public void setBookoutSettlementDt(Date bookoutSettlementDt) {
+        this.bookoutSettlementDt = bookoutSettlementDt;
+    }
+
+    public String getSettStartMonthCd() {
+        return settStartMonthCd;
+    }
+
+    public void setSettStartMonthCd(String settStartMonthCd) {
+        this.settStartMonthCd = settStartMonthCd;
+    }
+
+    public String getSettPeriodTypeCd() {
+        return settPeriodTypeCd;
+    }
+
+    public void setSettPeriodTypeCd(String settPeriodTypeCd) {
+        this.settPeriodTypeCd = settPeriodTypeCd;
+    }
+
+    public String getShipmentStatusCd() {
+        return shipmentStatusCd;
+    }
+
+    public void setShipmentStatusCd(String shipmentStatusCd) {
+        this.shipmentStatusCd = shipmentStatusCd;
+    }
+
+    public Date getCreateDtm() {
+        return createDtm;
+    }
+
+    public void setCreateDtm(Date createDtm) {
+        this.createDtm = createDtm;
+    }
+
+    public Date getLastUpdtDtm() {
+        return lastUpdtDtm;
+    }
+
+    public void setLastUpdtDtm(Date lastUpdtDtm) {
+        this.lastUpdtDtm = lastUpdtDtm;
+    }
+
+    public String getCreateUserId() {
+        return createUserId;
+    }
+
+    public void setCreateUserId(String createUserId) {
+        this.createUserId = createUserId;
+    }
+
+    public String getUpdateUserId() {
+        return updateUserId;
+    }
+
+    public void setUpdateUserId(String updateUserId) {
+        this.updateUserId = updateUserId;
+    }
+
+    public Boolean getDeleteFlag() {
+        return deleteFlag;
+    }
+
+    public void setDeleteFlag(Boolean deleteFlag) {
+        this.deleteFlag = deleteFlag;
+    }
+}

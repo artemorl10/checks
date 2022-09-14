@@ -1,0 +1,1183 @@
+package com.bp.ist.tf.credit.crave.domain.deal.nonRateableLeg.impl;
+
+import java.util.Date;
+
+public class OdsCraveTradeNonRateableLeg {
+ private String tradeLegKey;
+
+ private String tradeKey;
+
+ private String sourceLegStripCd;
+
+ private String tradeTxnCd;
+
+ private String tradeTxnKey;
+
+ private Date periodStartDate;
+
+ private Date periodEndDate;
+
+ private Date refreshedDt;
+
+ private Long commodityId;
+
+ private String buySellInd;
+
+ private Long legalAgreement3Key;
+
+ private Long legalAgreement4Key;
+
+ private Long legalAgreement5Key;
+
+ private Long gtcLegalAgreementKey;
+
+ private Boolean netting3Flag;
+
+ private Boolean netting4Flag;
+
+ private Boolean netting5Flag;
+
+ private Long chainKey;
+
+ private String csaInd;
+
+ private String creditRightsAmdInd;
+
+ private Long deliveryLocationId;
+
+ private Double tradePrice;
+
+ private String tradePriceUomCd;
+
+ private Long tradePriceCurveKey;
+
+ private String tradePriceCurrencyCd;
+
+ private Date tradeStartDt;
+
+ private Date tradeEndDt;
+
+ private String tradePriceCalendarCd;
+
+ private String fromAfterInd;
+
+ private Long offsetFromEvent;
+
+ private String offsetMonthCd;
+
+ private Long settOnDayOfMthNum;
+
+ private String splitPreNextInd;
+
+ private String splitPreNextAdt;
+
+ private String calWorkDayInd;
+
+ private String earlierLaterInd;
+
+ private String tradeEventCd;
+
+ private String tradeEventAtlCd;
+
+ private Long offsetFromEventAlt;
+
+ private String fromAfterAltInd;
+
+ private String calWorkingDaysAltInd;
+
+ private Date fixedSettlementDt;
+
+ private String fixedSettlementAdt;
+
+ private Double marketPrice;
+
+ private String marketCurrencyCd;
+
+ private String marketUomCd;
+
+ private Date marketStartDt;
+
+ private Date marketEndDt;
+
+ private Long marketCurveKey;
+
+ private Double contractQuantityAmt;
+
+ private String contractQuantityUomCd;
+
+ private Double mtmValueAmt;
+
+ private String mtmValueCurrencyCd;
+
+ private Double settlementValueAmt;
+
+ private String settlementValueCurrencyCd;
+
+ private Double futureSettValueAmt;
+
+ private String futureSettCurrencyCd;
+
+ private Double futureSettQtyAmt;
+
+ private String futureSettUomCd;
+
+ private Double deliveredSettValueAmt;
+
+ private String deliveredSettCurrencyCd;
+
+ private Double deliveredSettQtyAmt;
+
+ private String deliveredSettUomCd;
+
+ private Date paymentDueDate;
+
+ private String priceSettleFrequencyCd;
+
+ private Date invoiceDt;
+
+ private Date titleTransferDate;
+
+ private String returnExposureInd;
+
+ private Date srcLegLastUpdtDtm;
+
+ private String paymentSecurityCd;
+
+ private Date createDtm;
+
+ private Date lastUpdtDtm;
+
+ private String createUserId;
+
+ private String updateUserId;
+
+ private Boolean deleteFlag;
+
+ private String tradePriceTermCd;
+
+ private String legalAgreementTemplateCd;
+
+ private String deliveryTermCd;
+
+	public String getDeliveryTermCd() {
+        return deliveryTermCd;
+    }
+
+    public void setDeliveryTermCd(String deliveryTermCd) {
+        this.deliveryTermCd = deliveryTermCd;
+    }
+
+	public String getLegalAgreementTemplateCd() {
+		return legalAgreementTemplateCd;
+	}
+
+	public void setLegalAgreementTemplateCd(String legalAgreementTemplateCd) {
+		this.legalAgreementTemplateCd = legalAgreementTemplateCd;
+	}
+
+	public String getTradeLegKey() {
+		return tradeLegKey;
+	}
+
+	public void setTradeLegKey(String tradeLegKey) {
+		this.tradeLegKey = tradeLegKey;
+	}
+
+	public String getTradeKey() {
+		return tradeKey;
+	}
+
+	public void setTradeKey(String tradeKey) {
+		this.tradeKey = tradeKey;
+	}
+
+	public String getSourceLegStripCd() {
+		return sourceLegStripCd;
+	}
+
+	public void setSourceLegStripCd(String sourceLegStripCd) {
+		this.sourceLegStripCd = sourceLegStripCd;
+	}
+
+	public String getTradeTxnCd() {
+		return tradeTxnCd;
+	}
+
+	public void setTradeTxnCd(String tradeTxnCd) {
+		this.tradeTxnCd = tradeTxnCd;
+	}
+
+	public String getTradeTxnKey() {
+		return tradeTxnKey;
+	}
+
+	public void setTradeTxnKey(String tradeTxnKey) {
+		this.tradeTxnKey = tradeTxnKey;
+	}
+
+	public Date getPeriodStartDate() {
+		return periodStartDate;
+	}
+
+	public void setPeriodStartDate(Date periodStartDate) {
+		this.periodStartDate = periodStartDate;
+	}
+
+	public Date getPeriodEndDate() {
+		return periodEndDate;
+	}
+
+	public void setPeriodEndDate(Date periodEndDate) {
+		this.periodEndDate = periodEndDate;
+	}
+
+	public Date getRefreshedDt() {
+		return refreshedDt;
+	}
+
+	public void setRefreshedDt(Date refreshedDt) {
+		this.refreshedDt = refreshedDt;
+	}
+
+	public Long getCommodityId() {
+		return commodityId;
+	}
+
+	public void setCommodityId(Long commodityId) {
+		this.commodityId = commodityId;
+	}
+
+	public String getBuySellInd() {
+		return buySellInd;
+	}
+
+	public void setBuySellInd(String buySellInd) {
+		this.buySellInd = buySellInd;
+	}
+
+	public Long getLegalAgreement3Key() {
+		return legalAgreement3Key;
+	}
+
+	public void setLegalAgreement3Key(Long legalAgreement3Key) {
+		this.legalAgreement3Key = legalAgreement3Key;
+	}
+
+	public Long getLegalAgreement4Key() {
+		return legalAgreement4Key;
+	}
+
+	public void setLegalAgreement4Key(Long legalAgreement4Key) {
+		this.legalAgreement4Key = legalAgreement4Key;
+	}
+
+	public Long getLegalAgreement5Key() {
+		return legalAgreement5Key;
+	}
+
+	public void setLegalAgreement5Key(Long legalAgreement5Key) {
+		this.legalAgreement5Key = legalAgreement5Key;
+	}
+
+	public Long getGtcLegalAgreementKey() {
+		return gtcLegalAgreementKey;
+	}
+
+	public void setGtcLegalAgreementKey(Long gtcLegalAgreementKey) {
+		this.gtcLegalAgreementKey = gtcLegalAgreementKey;
+	}
+
+	public Boolean getNetting3Flag() {
+		return netting3Flag;
+	}
+
+	public void setNetting3Flag(Boolean netting3Flag) {
+		this.netting3Flag = netting3Flag;
+	}
+
+	public Boolean getNetting4Flag() {
+		return netting4Flag;
+	}
+
+	public void setNetting4Flag(Boolean netting4Flag) {
+		this.netting4Flag = netting4Flag;
+	}
+
+	public Boolean getNetting5Flag() {
+		return netting5Flag;
+	}
+
+	public void setNetting5Flag(Boolean netting5Flag) {
+		this.netting5Flag = netting5Flag;
+	}
+
+	public Long getChainKey() {
+		return chainKey;
+	}
+
+	public void setChainKey(Long chainKey) {
+		this.chainKey = chainKey;
+	}
+
+	public String getCsaInd() {
+		return csaInd;
+	}
+
+	public void setCsaInd(String csaInd) {
+		this.csaInd = csaInd;
+	}
+
+	public String getCreditRightsAmdInd() {
+		return creditRightsAmdInd;
+	}
+
+	public void setCreditRightsAmdInd(String creditRightsAmdInd) {
+		this.creditRightsAmdInd = creditRightsAmdInd;
+	}
+
+	public Long getDeliveryLocationId() {
+		return deliveryLocationId;
+	}
+
+	public void setDeliveryLocationId(Long deliveryLocationId) {
+		this.deliveryLocationId = deliveryLocationId;
+	}
+
+	public Double getTradePrice() {
+		return tradePrice;
+	}
+
+	public void setTradePrice(Double tradePrice) {
+		this.tradePrice = tradePrice;
+	}
+
+	public String getTradePriceUomCd() {
+		return tradePriceUomCd;
+	}
+
+	public void setTradePriceUomCd(String tradePriceUomCd) {
+		this.tradePriceUomCd = tradePriceUomCd;
+	}
+
+	public Long getTradePriceCurveKey() {
+		return tradePriceCurveKey;
+	}
+
+	public void setTradePriceCurveKey(Long tradePriceCurveKey) {
+		this.tradePriceCurveKey = tradePriceCurveKey;
+	}
+
+	public String getTradePriceCurrencyCd() {
+		return tradePriceCurrencyCd;
+	}
+
+	public void setTradePriceCurrencyCd(String tradePriceCurrencyCd) {
+		this.tradePriceCurrencyCd = tradePriceCurrencyCd;
+	}
+
+	public Date getTradeStartDt() {
+		return tradeStartDt;
+	}
+
+	public void setTradeStartDt(Date tradeStartDt) {
+		this.tradeStartDt = tradeStartDt;
+	}
+
+	public Date getTradeEndDt() {
+		return tradeEndDt;
+	}
+
+	public void setTradeEndDt(Date tradeEndDt) {
+		this.tradeEndDt = tradeEndDt;
+	}
+
+	public String getTradePriceCalendarCd() {
+		return tradePriceCalendarCd;
+	}
+
+	public void setTradePriceCalendarCd(String tradePriceCalendarCd) {
+		this.tradePriceCalendarCd = tradePriceCalendarCd;
+	}
+
+	public String getFromAfterInd() {
+		return fromAfterInd;
+	}
+
+	public void setFromAfterInd(String fromAfterInd) {
+		this.fromAfterInd = fromAfterInd;
+	}
+
+	public Long getOffsetFromEvent() {
+		return offsetFromEvent;
+	}
+
+	public void setOffsetFromEvent(Long offsetFromEvent) {
+		this.offsetFromEvent = offsetFromEvent;
+	}
+
+	public String getOffsetMonthCd() {
+		return offsetMonthCd;
+	}
+
+	public void setOffsetMonthCd(String offsetMonthCd) {
+		this.offsetMonthCd = offsetMonthCd;
+	}
+
+	public Long getSettOnDayOfMthNum() {
+		return settOnDayOfMthNum;
+	}
+
+	public void setSettOnDayOfMthNum(Long settOnDayOfMthNum) {
+		this.settOnDayOfMthNum = settOnDayOfMthNum;
+	}
+
+	public String getSplitPreNextInd() {
+		return splitPreNextInd;
+	}
+
+	public void setSplitPreNextInd(String splitPreNextInd) {
+		this.splitPreNextInd = splitPreNextInd;
+	}
+
+	public String getSplitPreNextAdt() {
+		return splitPreNextAdt;
+	}
+
+	public void setSplitPreNextAdt(String splitPreNextAdt) {
+		this.splitPreNextAdt = splitPreNextAdt;
+	}
+
+	public String getCalWorkDayInd() {
+		return calWorkDayInd;
+	}
+
+	public void setCalWorkDayInd(String calWorkDayInd) {
+		this.calWorkDayInd = calWorkDayInd;
+	}
+
+	public String getEarlierLaterInd() {
+		return earlierLaterInd;
+	}
+
+	public void setEarlierLaterInd(String earlierLaterInd) {
+		this.earlierLaterInd = earlierLaterInd;
+	}
+
+	public String getTradeEventCd() {
+		return tradeEventCd;
+	}
+
+	public void setTradeEventCd(String tradeEventCd) {
+		this.tradeEventCd = tradeEventCd;
+	}
+
+	public String getTradeEventAtlCd() {
+		return tradeEventAtlCd;
+	}
+
+	public void setTradeEventAtlCd(String tradeEventAtlCd) {
+		this.tradeEventAtlCd = tradeEventAtlCd;
+	}
+
+	public Long getOffsetFromEventAlt() {
+		return offsetFromEventAlt;
+	}
+
+	public void setOffsetFromEventAlt(Long offsetFromEventAlt) {
+		this.offsetFromEventAlt = offsetFromEventAlt;
+	}
+
+	public String getFromAfterAltInd() {
+		return fromAfterAltInd;
+	}
+
+	public void setFromAfterAltInd(String fromAfterAltInd) {
+		this.fromAfterAltInd = fromAfterAltInd;
+	}
+
+	public String getCalWorkingDaysAltInd() {
+		return calWorkingDaysAltInd;
+	}
+
+	public void setCalWorkingDaysAltInd(String calWorkingDaysAltInd) {
+		this.calWorkingDaysAltInd = calWorkingDaysAltInd;
+	}
+
+	public Date getFixedSettlementDt() {
+		return fixedSettlementDt;
+	}
+
+	public void setFixedSettlementDt(Date fixedSettlementDt) {
+		this.fixedSettlementDt = fixedSettlementDt;
+	}
+
+	public String getFixedSettlementAdt() {
+		return fixedSettlementAdt;
+	}
+
+	public void setFixedSettlementAdt(String fixedSettlementAdt) {
+		this.fixedSettlementAdt = fixedSettlementAdt;
+	}
+
+	public Double getMarketPrice() {
+		return marketPrice;
+	}
+
+	public void setMarketPrice(Double marketPrice) {
+		this.marketPrice = marketPrice;
+	}
+
+	public String getMarketCurrencyCd() {
+		return marketCurrencyCd;
+	}
+
+	public void setMarketCurrencyCd(String marketCurrencyCd) {
+		this.marketCurrencyCd = marketCurrencyCd;
+	}
+
+	public String getMarketUomCd() {
+		return marketUomCd;
+	}
+
+	public void setMarketUomCd(String marketUomCd) {
+		this.marketUomCd = marketUomCd;
+	}
+
+	public Date getMarketStartDt() {
+		return marketStartDt;
+	}
+
+	public void setMarketStartDt(Date marketStartDt) {
+		this.marketStartDt = marketStartDt;
+	}
+
+	public Date getMarketEndDt() {
+		return marketEndDt;
+	}
+
+	public void setMarketEndDt(Date marketEndDt) {
+		this.marketEndDt = marketEndDt;
+	}
+
+	public Long getMarketCurveKey() {
+		return marketCurveKey;
+	}
+
+	public void setMarketCurveKey(Long marketCurveKey) {
+		this.marketCurveKey = marketCurveKey;
+	}
+
+	public Double getContractQuantityAmt() {
+		return contractQuantityAmt;
+	}
+
+	public void setContractQuantityAmt(Double contractQuantityAmt) {
+		this.contractQuantityAmt = contractQuantityAmt;
+	}
+
+	public String getContractQuantityUomCd() {
+		return contractQuantityUomCd;
+	}
+
+	public void setContractQuantityUomCd(String contractQuantityUomCd) {
+		this.contractQuantityUomCd = contractQuantityUomCd;
+	}
+
+	public Double getMtmValueAmt() {
+		return mtmValueAmt;
+	}
+
+	public void setMtmValueAmt(Double mtmValueAmt) {
+		this.mtmValueAmt = mtmValueAmt;
+	}
+
+	public String getMtmValueCurrencyCd() {
+		return mtmValueCurrencyCd;
+	}
+
+	public void setMtmValueCurrencyCd(String mtmValueCurrencyCd) {
+		this.mtmValueCurrencyCd = mtmValueCurrencyCd;
+	}
+
+	public Double getSettlementValueAmt() {
+		return settlementValueAmt;
+	}
+
+	public void setSettlementValueAmt(Double settlementValueAmt) {
+		this.settlementValueAmt = settlementValueAmt;
+	}
+
+	public String getSettlementValueCurrencyCd() {
+		return settlementValueCurrencyCd;
+	}
+
+	public void setSettlementValueCurrencyCd(String settlementValueCurrencyCd) {
+		this.settlementValueCurrencyCd = settlementValueCurrencyCd;
+	}
+
+	public Double getFutureSettValueAmt() {
+		return futureSettValueAmt;
+	}
+
+	public void setFutureSettValueAmt(Double futureSettValueAmt) {
+		this.futureSettValueAmt = futureSettValueAmt;
+	}
+
+	public String getFutureSettCurrencyCd() {
+		return futureSettCurrencyCd;
+	}
+
+	public void setFutureSettCurrencyCd(String futureSettCurrencyCd) {
+		this.futureSettCurrencyCd = futureSettCurrencyCd;
+	}
+
+	public Double getFutureSettQtyAmt() {
+		return futureSettQtyAmt;
+	}
+
+	public void setFutureSettQtyAmt(Double futureSettQtyAmt) {
+		this.futureSettQtyAmt = futureSettQtyAmt;
+	}
+
+	public String getFutureSettUomCd() {
+		return futureSettUomCd;
+	}
+
+	public void setFutureSettUomCd(String futureSettUomCd) {
+		this.futureSettUomCd = futureSettUomCd;
+	}
+
+	public Double getDeliveredSettValueAmt() {
+		return deliveredSettValueAmt;
+	}
+
+	public void setDeliveredSettValueAmt(Double deliveredSettValueAmt) {
+		this.deliveredSettValueAmt = deliveredSettValueAmt;
+	}
+
+	public String getDeliveredSettCurrencyCd() {
+		return deliveredSettCurrencyCd;
+	}
+
+	public void setDeliveredSettCurrencyCd(String deliveredSettCurrencyCd) {
+		this.deliveredSettCurrencyCd = deliveredSettCurrencyCd;
+	}
+
+	public Double getDeliveredSettQtyAmt() {
+		return deliveredSettQtyAmt;
+	}
+
+	public void setDeliveredSettQtyAmt(Double deliveredSettQtyAmt) {
+		this.deliveredSettQtyAmt = deliveredSettQtyAmt;
+	}
+
+	public String getDeliveredSettUomCd() {
+		return deliveredSettUomCd;
+	}
+
+	public void setDeliveredSettUomCd(String deliveredSettUomCd) {
+		this.deliveredSettUomCd = deliveredSettUomCd;
+	}
+
+	public Date getPaymentDueDate() {
+		return paymentDueDate;
+	}
+
+	public void setPaymentDueDate(Date paymentDueDate) {
+		this.paymentDueDate = paymentDueDate;
+	}
+
+	public String getPriceSettleFrequencyCd() {
+		return priceSettleFrequencyCd;
+	}
+
+	public void setPriceSettleFrequencyCd(String priceSettleFrequencyCd) {
+		this.priceSettleFrequencyCd = priceSettleFrequencyCd;
+	}
+
+	public Date getInvoiceDt() {
+		return invoiceDt;
+	}
+
+	public void setInvoiceDt(Date invoiceDt) {
+		this.invoiceDt = invoiceDt;
+	}
+
+	public Date getTitleTransferDate() {
+		return titleTransferDate;
+	}
+
+	public void setTitleTransferDate(Date titleTransferDate) {
+		this.titleTransferDate = titleTransferDate;
+	}
+
+	public String getReturnExposureInd() {
+		return returnExposureInd;
+	}
+
+	public void setReturnExposureInd(String returnExposureInd) {
+		this.returnExposureInd = returnExposureInd;
+	}
+
+	public Date getSrcLegLastUpdtDtm() {
+		return srcLegLastUpdtDtm;
+	}
+
+	public void setSrcLegLastUpdtDtm(Date srcLegLastUpdtDtm) {
+		this.srcLegLastUpdtDtm = srcLegLastUpdtDtm;
+	}
+
+	public String getPaymentSecurityCd() {
+		return paymentSecurityCd;
+	}
+
+	public void setPaymentSecurityCd(String paymentSecurityCd) {
+		this.paymentSecurityCd = paymentSecurityCd;
+	}
+
+	public Date getCreateDtm() {
+		return createDtm;
+	}
+
+	public void setCreateDtm(Date createDtm) {
+		this.createDtm = createDtm;
+	}
+
+	public Date getLastUpdtDtm() {
+		return lastUpdtDtm;
+	}
+
+	public void setLastUpdtDtm(Date lastUpdtDtm) {
+		this.lastUpdtDtm = lastUpdtDtm;
+	}
+
+	public String getCreateUserId() {
+		return createUserId;
+	}
+
+	public void setCreateUserId(String createUserId) {
+		this.createUserId = createUserId;
+	}
+
+	public String getUpdateUserId() {
+		return updateUserId;
+	}
+
+	public void setUpdateUserId(String updateUserId) {
+		this.updateUserId = updateUserId;
+	}
+
+	public Boolean getDeleteFlag() {
+		return deleteFlag;
+	}
+
+	public void setDeleteFlag(Boolean deleteFlag) {
+		this.deleteFlag = deleteFlag;
+	}
+
+	public String getTradePriceTermCd() {
+		return tradePriceTermCd;
+	}
+
+	public void setTradePriceTermCd(String tradePriceTermCd) {
+		this.tradePriceTermCd = tradePriceTermCd;
+	}
+
+	@Override
+	public String toString() {
+		StringBuilder builder = new StringBuilder();
+		builder.append("OdsCraveTradeNonRateableLeg [");
+		if (tradeLegKey != null) {
+			builder.append("tradeLegKey=");
+			builder.append(tradeLegKey);
+			builder.append(", ");
+		}
+		if (tradeKey != null) {
+			builder.append("tradeKey=");
+			builder.append(tradeKey);
+			builder.append(", ");
+		}
+		if (sourceLegStripCd != null) {
+			builder.append("sourceLegStripCd=");
+			builder.append(sourceLegStripCd);
+			builder.append(", ");
+		}
+		if (tradeTxnCd != null) {
+			builder.append("tradeTxnCd=");
+			builder.append(tradeTxnCd);
+			builder.append(", ");
+		}
+		if (tradeTxnKey != null) {
+			builder.append("tradeTxnKey=");
+			builder.append(tradeTxnKey);
+			builder.append(", ");
+		}
+		if (periodStartDate != null) {
+			builder.append("periodStartDate=");
+			builder.append(periodStartDate);
+			builder.append(", ");
+		}
+		if (periodEndDate != null) {
+			builder.append("periodEndDate=");
+			builder.append(periodEndDate);
+			builder.append(", ");
+		}
+		if (refreshedDt != null) {
+			builder.append("refreshedDt=");
+			builder.append(refreshedDt);
+			builder.append(", ");
+		}
+		if (commodityId != null) {
+			builder.append("commodityId=");
+			builder.append(commodityId);
+			builder.append(", ");
+		}
+		if (buySellInd != null) {
+			builder.append("buySellInd=");
+			builder.append(buySellInd);
+			builder.append(", ");
+		}
+		if (legalAgreement3Key != null) {
+			builder.append("legalAgreement3Key=");
+			builder.append(legalAgreement3Key);
+			builder.append(", ");
+		}
+		if (legalAgreement4Key != null) {
+			builder.append("legalAgreement4Key=");
+			builder.append(legalAgreement4Key);
+			builder.append(", ");
+		}
+		if (legalAgreement5Key != null) {
+			builder.append("legalAgreement5Key=");
+			builder.append(legalAgreement5Key);
+			builder.append(", ");
+		}
+		if (gtcLegalAgreementKey != null) {
+			builder.append("gtcLegalAgreementKey=");
+			builder.append(gtcLegalAgreementKey);
+			builder.append(", ");
+		}
+		if (netting3Flag != null) {
+			builder.append("netting3Flag=");
+			builder.append(netting3Flag);
+			builder.append(", ");
+		}
+		if (netting4Flag != null) {
+			builder.append("netting4Flag=");
+			builder.append(netting4Flag);
+			builder.append(", ");
+		}
+		if (netting5Flag != null) {
+			builder.append("netting5Flag=");
+			builder.append(netting5Flag);
+			builder.append(", ");
+		}
+		if (chainKey != null) {
+			builder.append("chainKey=");
+			builder.append(chainKey);
+			builder.append(", ");
+		}
+		if (csaInd != null) {
+			builder.append("csaInd=");
+			builder.append(csaInd);
+			builder.append(", ");
+		}
+		if (creditRightsAmdInd != null) {
+			builder.append("creditRightsAmdInd=");
+			builder.append(creditRightsAmdInd);
+			builder.append(", ");
+		}
+		if (deliveryLocationId != null) {
+			builder.append("deliveryLocationId=");
+			builder.append(deliveryLocationId);
+			builder.append(", ");
+		}
+		if (tradePrice != null) {
+			builder.append("tradePrice=");
+			builder.append(tradePrice);
+			builder.append(", ");
+		}
+		if (tradePriceUomCd != null) {
+			builder.append("tradePriceUomCd=");
+			builder.append(tradePriceUomCd);
+			builder.append(", ");
+		}
+		if (tradePriceCurveKey != null) {
+			builder.append("tradePriceCurveKey=");
+			builder.append(tradePriceCurveKey);
+			builder.append(", ");
+		}
+		if (tradePriceCurrencyCd != null) {
+			builder.append("tradePriceCurrencyCd=");
+			builder.append(tradePriceCurrencyCd);
+			builder.append(", ");
+		}
+		if (tradeStartDt != null) {
+			builder.append("tradeStartDt=");
+			builder.append(tradeStartDt);
+			builder.append(", ");
+		}
+		if (tradeEndDt != null) {
+			builder.append("tradeEndDt=");
+			builder.append(tradeEndDt);
+			builder.append(", ");
+		}
+		if (tradePriceCalendarCd != null) {
+			builder.append("tradePriceCalendarCd=");
+			builder.append(tradePriceCalendarCd);
+			builder.append(", ");
+		}
+		if (fromAfterInd != null) {
+			builder.append("fromAfterInd=");
+			builder.append(fromAfterInd);
+			builder.append(", ");
+		}
+		if (offsetFromEvent != null) {
+			builder.append("offsetFromEvent=");
+			builder.append(offsetFromEvent);
+			builder.append(", ");
+		}
+		if (offsetMonthCd != null) {
+			builder.append("offsetMonthCd=");
+			builder.append(offsetMonthCd);
+			builder.append(", ");
+		}
+		if (settOnDayOfMthNum != null) {
+			builder.append("settOnDayOfMthNum=");
+			builder.append(settOnDayOfMthNum);
+			builder.append(", ");
+		}
+		if (splitPreNextInd != null) {
+			builder.append("splitPreNextInd=");
+			builder.append(splitPreNextInd);
+			builder.append(", ");
+		}
+		if (splitPreNextAdt != null) {
+			builder.append("splitPreNextAdt=");
+			builder.append(splitPreNextAdt);
+			builder.append(", ");
+		}
+		if (calWorkDayInd != null) {
+			builder.append("calWorkDayInd=");
+			builder.append(calWorkDayInd);
+			builder.append(", ");
+		}
+		if (earlierLaterInd != null) {
+			builder.append("earlierLaterInd=");
+			builder.append(earlierLaterInd);
+			builder.append(", ");
+		}
+		if (tradeEventCd != null) {
+			builder.append("tradeEventCd=");
+			builder.append(tradeEventCd);
+			builder.append(", ");
+		}
+		if (tradeEventAtlCd != null) {
+			builder.append("tradeEventAtlCd=");
+			builder.append(tradeEventAtlCd);
+			builder.append(", ");
+		}
+		if (offsetFromEventAlt != null) {
+			builder.append("offsetFromEventAlt=");
+			builder.append(offsetFromEventAlt);
+			builder.append(", ");
+		}
+		if (fromAfterAltInd != null) {
+			builder.append("fromAfterAltInd=");
+			builder.append(fromAfterAltInd);
+			builder.append(", ");
+		}
+		if (calWorkingDaysAltInd != null) {
+			builder.append("calWorkingDaysAltInd=");
+			builder.append(calWorkingDaysAltInd);
+			builder.append(", ");
+		}
+		if (fixedSettlementDt != null) {
+			builder.append("fixedSettlementDt=");
+			builder.append(fixedSettlementDt);
+			builder.append(", ");
+		}
+		if (fixedSettlementAdt != null) {
+			builder.append("fixedSettlementAdt=");
+			builder.append(fixedSettlementAdt);
+			builder.append(", ");
+		}
+		if (marketPrice != null) {
+			builder.append("marketPrice=");
+			builder.append(marketPrice);
+			builder.append(", ");
+		}
+		if (marketCurrencyCd != null) {
+			builder.append("marketCurrencyCd=");
+			builder.append(marketCurrencyCd);
+			builder.append(", ");
+		}
+		if (marketUomCd != null) {
+			builder.append("marketUomCd=");
+			builder.append(marketUomCd);
+			builder.append(", ");
+		}
+		if (marketStartDt != null) {
+			builder.append("marketStartDt=");
+			builder.append(marketStartDt);
+			builder.append(", ");
+		}
+		if (marketEndDt != null) {
+			builder.append("marketEndDt=");
+			builder.append(marketEndDt);
+			builder.append(", ");
+		}
+		if (marketCurveKey != null) {
+			builder.append("marketCurveKey=");
+			builder.append(marketCurveKey);
+			builder.append(", ");
+		}
+		if (contractQuantityAmt != null) {
+			builder.append("contractQuantityAmt=");
+			builder.append(contractQuantityAmt);
+			builder.append(", ");
+		}
+		if (contractQuantityUomCd != null) {
+			builder.append("contractQuantityUomCd=");
+			builder.append(contractQuantityUomCd);
+			builder.append(", ");
+		}
+		if (mtmValueAmt != null) {
+			builder.append("mtmValueAmt=");
+			builder.append(mtmValueAmt);
+			builder.append(", ");
+		}
+		if (mtmValueCurrencyCd != null) {
+			builder.append("mtmValueCurrencyCd=");
+			builder.append(mtmValueCurrencyCd);
+			builder.append(", ");
+		}
+		if (settlementValueAmt != null) {
+			builder.append("settlementValueAmt=");
+			builder.append(settlementValueAmt);
+			builder.append(", ");
+		}
+		if (settlementValueCurrencyCd != null) {
+			builder.append("settlementValueCurrencyCd=");
+			builder.append(settlementValueCurrencyCd);
+			builder.append(", ");
+		}
+		if (futureSettValueAmt != null) {
+			builder.append("futureSettValueAmt=");
+			builder.append(futureSettValueAmt);
+			builder.append(", ");
+		}
+		if (futureSettCurrencyCd != null) {
+			builder.append("futureSettCurrencyCd=");
+			builder.append(futureSettCurrencyCd);
+			builder.append(", ");
+		}
+		if (futureSettQtyAmt != null) {
+			builder.append("futureSettQtyAmt=");
+			builder.append(futureSettQtyAmt);
+			builder.append(", ");
+		}
+		if (futureSettUomCd != null) {
+			builder.append("futureSettUomCd=");
+			builder.append(futureSettUomCd);
+			builder.append(", ");
+		}
+		if (deliveredSettValueAmt != null) {
+			builder.append("deliveredSettValueAmt=");
+			builder.append(deliveredSettValueAmt);
+			builder.append(", ");
+		}
+		if (deliveredSettCurrencyCd != null) {
+			builder.append("deliveredSettCurrencyCd=");
+			builder.append(deliveredSettCurrencyCd);
+			builder.append(", ");
+		}
+		if (deliveredSettQtyAmt != null) {
+			builder.append("deliveredSettQtyAmt=");
+			builder.append(deliveredSettQtyAmt);
+			builder.append(", ");
+		}
+		if (deliveredSettUomCd != null) {
+			builder.append("deliveredSettUomCd=");
+			builder.append(deliveredSettUomCd);
+			builder.append(", ");
+		}
+		if (paymentDueDate != null) {
+			builder.append("paymentDueDate=");
+			builder.append(paymentDueDate);
+			builder.append(", ");
+		}
+		if (priceSettleFrequencyCd != null) {
+			builder.append("priceSettleFrequencyCd=");
+			builder.append(priceSettleFrequencyCd);
+			builder.append(", ");
+		}
+		if (invoiceDt != null) {
+			builder.append("invoiceDt=");
+			builder.append(invoiceDt);
+			builder.append(", ");
+		}
+		if (titleTransferDate != null) {
+			builder.append("titleTransferDate=");
+			builder.append(titleTransferDate);
+			builder.append(", ");
+		}
+		if (returnExposureInd != null) {
+			builder.append("returnExposureInd=");
+			builder.append(returnExposureInd);
+			builder.append(", ");
+		}
+		if (srcLegLastUpdtDtm != null) {
+			builder.append("srcLegLastUpdtDtm=");
+			builder.append(srcLegLastUpdtDtm);
+			builder.append(", ");
+		}
+		if (paymentSecurityCd != null) {
+			builder.append("paymentSecurityCd=");
+			builder.append(paymentSecurityCd);
+			builder.append(", ");
+		}
+		if (createDtm != null) {
+			builder.append("createDtm=");
+			builder.append(createDtm);
+			builder.append(", ");
+		}
+		if (lastUpdtDtm != null) {
+			builder.append("lastUpdtDtm=");
+			builder.append(lastUpdtDtm);
+			builder.append(", ");
+		}
+		if (createUserId != null) {
+			builder.append("createUserId=");
+			builder.append(createUserId);
+			builder.append(", ");
+		}
+		if (updateUserId != null) {
+			builder.append("updateUserId=");
+			builder.append(updateUserId);
+			builder.append(", ");
+		}
+		if (deleteFlag != null) {
+			builder.append("deleteFlag=");
+			builder.append(deleteFlag);
+			builder.append(", ");
+		}
+		if (tradePriceTermCd != null) {
+			builder.append("tradePriceTermCd=");
+			builder.append(tradePriceTermCd);
+			builder.append(", ");
+		}
+		if (legalAgreementTemplateCd != null) {
+			builder.append("legalAgreementTemplateCd=");
+			builder.append(legalAgreementTemplateCd);
+			builder.append(", ");
+		}
+		if (deliveryTermCd != null) {
+			builder.append("deliveryTermCd=");
+			builder.append(deliveryTermCd);
+		}
+		builder.append("]");
+		return builder.toString();
+	}
+
+}

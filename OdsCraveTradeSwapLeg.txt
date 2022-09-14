@@ -1,0 +1,717 @@
+package pipeline.javabeans;
+
+import java.util.Date;
+
+public class OdsCraveTradeSwapLeg {
+
+    private String tradeLegKey;
+
+    private String tradeKey;
+
+    private String sourceLegStripCd;
+
+    private String tradeTxnCd;
+
+    private String tradeTxnKey;
+
+    private Date periodStartDate;
+
+    private Date periodEndDate;
+
+    private Date refreshedDt;
+
+    private Long commodityId;
+
+    private String buySellInd;
+
+    private Long legalAgreement3Key;
+
+    private Long legalAgreement4Key;
+
+    private Long legalAgreement5Key;
+
+    private Long gtcLegalAgreementKey;
+
+    private Boolean netting3Flag;
+
+    private Boolean netting4Flag;
+
+    private Boolean netting5Flag;
+
+    private Long chainKey;
+
+    private String csaInd;
+
+    private String derivativeProductCd;
+
+    private String creditRightsAmdInd;
+
+    private Double payPrice;
+
+    private String payPriceUomCd;
+
+    private String payPriceCurrencyCd;
+
+    private Date payStartDt;
+
+    private Date payEndDt;
+
+    private String payCalendarCd;
+
+    private String payTradeEventCd;
+
+    private String payFromAfterInd;
+
+	private String payOffsetMonthCd;
+
+	private Long paySettOnDayOfMthNum;
+
+    private Long payOffsetFromEvent;
+
+    private String paySplitPreNextInd;
+
+    private String paySplitPreNextAdt;
+
+    private String payCalWorkDayInd;
+
+    private Date payFixedSettlementDt;
+
+    private String payFixedSettlementAdt;
+
+    private Long payCurveKey;
+
+    private Double receivePrice;
+
+    private String receiveCurrencyCd;
+
+    private String receiveUomCd;
+
+    private Date receiveStartDt;
+
+    private Date receiveEndDt;
+
+    private Long receiveCurveKey;
+
+    private Double contractQuantityAmt;
+
+    private String contractQuantityUomCd;
+
+    private Double valuationQuantityAmt;
+
+    private String valuationQuantityUomCd;
+
+    private Double mtmValueAmt;
+
+    private String mtmValueCurrencyCd;
+
+    private Double settlementValueAmt;
+
+    private String settlementValueCurrencyCd;
+
+    private Date paymentDueDate;
+
+    private String priceSettleFrequencyCd;
+
+    private Date invoiceDt;
+
+    private String returnExposureInd;
+
+    private String noExpReturnReasonCd;
+
+    private Date srcLegLastUpdtDtm;
+
+    private String paymentSecurityCd;
+
+    private Date createDtm;
+
+    private Date lastUpdtDtm;
+
+    private String createUserId;
+
+    private String updateUserId;
+
+    private Boolean deleteFlag;
+    
+    private String receivePricingTermCd;
+    
+    private String sourceValuationDt;
+    
+    private String payPricingTermCd;
+    
+    private String indexingBasis;
+    
+    private String DealFormulaTxt;
+    
+    private String marketFormulaTxt;
+
+    private Double chainNumber;
+
+    public String getSourceValuationDt() {
+        return sourceValuationDt;
+    }
+
+    public void setSourceValuationDt(String sourceValuationDt) {
+        this.sourceValuationDt = sourceValuationDt;
+    }
+    
+    public String getIndexingBasis() {
+        return indexingBasis;
+    }
+
+    public void setIndexingBasis(String indexingBasis) {
+        this.indexingBasis = indexingBasis;
+    }
+
+    public String getDealFormulaTxt() {
+        return DealFormulaTxt;
+    }
+
+    public void setDealFormulaTxt(String dealFormulaTxt) {
+        DealFormulaTxt = dealFormulaTxt;
+    }
+
+    public String getMarketFormulaTxt() {
+        return marketFormulaTxt;
+    }
+
+    public void setMarketFormulaTxt(String marketFormulaTxt) {
+        this.marketFormulaTxt = marketFormulaTxt;
+    }
+
+    public String getTradeLegKey() {
+        return tradeLegKey;
+    }
+
+    public void setTradeLegKey(String tradeLegKey) {
+        this.tradeLegKey = tradeLegKey;
+    }
+
+    public String getTradeKey() {
+        return tradeKey;
+    }
+
+    public void setTradeKey(String tradeKey) {
+        this.tradeKey = tradeKey;
+    }
+
+    public String getSourceLegStripCd() {
+        return sourceLegStripCd;
+    }
+
+    public void setSourceLegStripCd(String sourceLegStripCd) {
+        this.sourceLegStripCd = sourceLegStripCd;
+    }
+
+    public String getTradeTxnCd() {
+        return tradeTxnCd;
+    }
+
+    public void setTradeTxnCd(String tradeTxnCd) {
+        this.tradeTxnCd = tradeTxnCd;
+    }
+
+    public String getTradeTxnKey() {
+        return tradeTxnKey;
+    }
+
+    public void setTradeTxnKey(String tradeTxnKey) {
+        this.tradeTxnKey = tradeTxnKey;
+    }
+
+    public Date getPeriodStartDate() {
+        return periodStartDate;
+    }
+
+    public void setPeriodStartDate(Date periodStartDate) {
+        this.periodStartDate = periodStartDate;
+    }
+
+    public Date getPeriodEndDate() {
+        return periodEndDate;
+    }
+
+    public void setPeriodEndDate(Date periodEndDate) {
+        this.periodEndDate = periodEndDate;
+    }
+
+    public Date getRefreshedDt() {
+        return refreshedDt;
+    }
+
+    public void setRefreshedDt(Date refreshedDt) {
+        this.refreshedDt = refreshedDt;
+    }
+
+    public Long getCommodityId() {
+        return commodityId;
+    }
+
+    public void setCommodityId(Long commodityId) {
+        this.commodityId = commodityId;
+    }
+
+    public String getBuySellInd() {
+        return buySellInd;
+    }
+
+    public void setBuySellInd(String buySellInd) {
+        this.buySellInd = buySellInd;
+    }
+
+    public Long getLegalAgreement3Key() {
+        return legalAgreement3Key;
+    }
+
+    public void setLegalAgreement3Key(Long legalAgreement3Key) {
+        this.legalAgreement3Key = legalAgreement3Key;
+    }
+
+    public Long getLegalAgreement4Key() {
+        return legalAgreement4Key;
+    }
+
+    public void setLegalAgreement4Key(Long legalAgreement4Key) {
+        this.legalAgreement4Key = legalAgreement4Key;
+    }
+
+    public Long getLegalAgreement5Key() {
+        return legalAgreement5Key;
+    }
+
+    public void setLegalAgreement5Key(Long legalAgreement5Key) {
+        this.legalAgreement5Key = legalAgreement5Key;
+    }
+
+    public Long getGtcLegalAgreementKey() {
+        return gtcLegalAgreementKey;
+    }
+
+    public void setGtcLegalAgreementKey(Long gtcLegalAgreementKey) {
+        this.gtcLegalAgreementKey = gtcLegalAgreementKey;
+    }
+
+    public Boolean getNetting3Flag() {
+        return netting3Flag;
+    }
+
+    public void setNetting3Flag(Boolean netting3Flag) {
+        this.netting3Flag = netting3Flag;
+    }
+
+    public Boolean getNetting4Flag() {
+        return netting4Flag;
+    }
+
+    public void setNetting4Flag(Boolean netting4Flag) {
+        this.netting4Flag = netting4Flag;
+    }
+
+    public Boolean getNetting5Flag() {
+        return netting5Flag;
+    }
+
+    public void setNetting5Flag(Boolean netting5Flag) {
+        this.netting5Flag = netting5Flag;
+    }
+
+    public Long getChainKey() {
+        return chainKey;
+    }
+
+    public void setChainKey(Long chainKey) {
+        this.chainKey = chainKey;
+    }
+
+    public String getCsaInd() {
+        return csaInd;
+    }
+
+    public void setCsaInd(String csaInd) {
+        this.csaInd = csaInd;
+    }
+
+    public String getDerivativeProductCd() {
+        return derivativeProductCd;
+    }
+
+    public void setDerivativeProductCd(String derivativeProductCd) {
+        this.derivativeProductCd = derivativeProductCd;
+    }
+
+    public String getCreditRightsAmdInd() {
+        return creditRightsAmdInd;
+    }
+
+    public void setCreditRightsAmdInd(String creditRightsAmdInd) {
+        this.creditRightsAmdInd = creditRightsAmdInd;
+    }
+
+    public Double getPayPrice() {
+        return payPrice;
+    }
+
+    public void setPayPrice(Double payPrice) {
+        this.payPrice = payPrice;
+    }
+
+    public String getPayPriceUomCd() {
+        return payPriceUomCd;
+    }
+
+    public void setPayPriceUomCd(String payPriceUomCd) {
+        this.payPriceUomCd = payPriceUomCd;
+    }
+
+    public String getPayPriceCurrencyCd() {
+        return payPriceCurrencyCd;
+    }
+
+    public void setPayPriceCurrencyCd(String payPriceCurrencyCd) {
+        this.payPriceCurrencyCd = payPriceCurrencyCd;
+    }
+
+    public Date getPayStartDt() {
+        return payStartDt;
+    }
+
+    public void setPayStartDt(Date payStartDt) {
+        this.payStartDt = payStartDt;
+    }
+
+    public Date getPayEndDt() {
+        return payEndDt;
+    }
+
+    public void setPayEndDt(Date payEndDt) {
+        this.payEndDt = payEndDt;
+    }
+
+    public String getPayCalendarCd() {
+        return payCalendarCd;
+    }
+
+    public void setPayCalendarCd(String payCalendarCd) {
+        this.payCalendarCd = payCalendarCd;
+    }
+
+    public String getPayTradeEventCd() {
+        return payTradeEventCd;
+    }
+
+    public void setPayTradeEventCd(String payTradeEventCd) {
+        this.payTradeEventCd = payTradeEventCd;
+    }
+
+    public String getPayFromAfterInd() {
+        return payFromAfterInd;
+    }
+
+    public void setPayFromAfterInd(String payFromAfterInd) {
+        this.payFromAfterInd = payFromAfterInd;
+    }
+
+	public String getPayOffsetMonthCd() {
+		return payOffsetMonthCd;
+	}
+
+	public void setPayOffsetMonthCd(String payOffsetMonthCd) {
+		this.payOffsetMonthCd = payOffsetMonthCd;
+	}
+
+	public Long getPaySettOnDayOfMthNum() {
+		return paySettOnDayOfMthNum;
+	}
+
+	public void setPaySettOnDayOfMthNum(Long paySettOnDayOfMthNum) {
+		this.paySettOnDayOfMthNum = paySettOnDayOfMthNum;
+	}
+
+    public Long getPayOffsetFromEvent() {
+        return payOffsetFromEvent;
+    }
+
+    public void setPayOffsetFromEvent(Long payOffsetFromEvent) {
+        this.payOffsetFromEvent = payOffsetFromEvent;
+    }
+
+    public String getPaySplitPreNextInd() {
+        return paySplitPreNextInd;
+    }
+
+    public void setPaySplitPreNextInd(String paySplitPreNextInd) {
+        this.paySplitPreNextInd = paySplitPreNextInd;
+    }
+
+    public String getPaySplitPreNextAdt() {
+        return paySplitPreNextAdt;
+    }
+
+    public void setPaySplitPreNextAdt(String paySplitPreNextAdt) {
+        this.paySplitPreNextAdt = paySplitPreNextAdt;
+    }
+
+    public String getPayCalWorkDayInd() {
+        return payCalWorkDayInd;
+    }
+
+    public void setPayCalWorkDayInd(String payCalWorkDayInd) {
+        this.payCalWorkDayInd = payCalWorkDayInd;
+    }
+
+    public Date getPayFixedSettlementDt() {
+        return payFixedSettlementDt;
+    }
+
+    public void setPayFixedSettlementDt(Date payFixedSettlementDt) {
+        this.payFixedSettlementDt = payFixedSettlementDt;
+    }
+
+    public String getPayFixedSettlementAdt() {
+        return payFixedSettlementAdt;
+    }
+
+    public void setPayFixedSettlementAdt(String payFixedSettlementAdt) {
+        this.payFixedSettlementAdt = payFixedSettlementAdt;
+    }
+
+    public Long getPayCurveKey() {
+        return payCurveKey;
+    }
+
+    public void setPayCurveKey(Long payCurveKey) {
+        this.payCurveKey = payCurveKey;
+    }
+
+    public Double getReceivePrice() {
+        return receivePrice;
+    }
+
+    public void setReceivePrice(Double receivePrice) {
+        this.receivePrice = receivePrice;
+    }
+
+    public String getReceiveCurrencyCd() {
+        return receiveCurrencyCd;
+    }
+
+    public void setReceiveCurrencyCd(String receiveCurrencyCd) {
+        this.receiveCurrencyCd = receiveCurrencyCd;
+    }
+
+    public String getReceiveUomCd() {
+        return receiveUomCd;
+    }
+
+    public void setReceiveUomCd(String receiveUomCd) {
+        this.receiveUomCd = receiveUomCd;
+    }
+
+    public Date getReceiveStartDt() {
+        return receiveStartDt;
+    }
+
+    public void setReceiveStartDt(Date receiveStartDt) {
+        this.receiveStartDt = receiveStartDt;
+    }
+
+    public Date getReceiveEndDt() {
+        return receiveEndDt;
+    }
+
+    public void setReceiveEndDt(Date receiveEndDt) {
+        this.receiveEndDt = receiveEndDt;
+    }
+
+    public Long getReceiveCurveKey() {
+        return receiveCurveKey;
+    }
+
+    public void setReceiveCurveKey(Long receiveCurveKey) {
+        this.receiveCurveKey = receiveCurveKey;
+    }
+
+    public Double getContractQuantityAmt() {
+        return contractQuantityAmt;
+    }
+
+    public void setContractQuantityAmt(Double contractQuantityAmt) {
+        this.contractQuantityAmt = contractQuantityAmt;
+    }
+
+    public String getContractQuantityUomCd() {
+        return contractQuantityUomCd;
+    }
+
+    public void setContractQuantityUomCd(String contractQuantityUomCd) {
+        this.contractQuantityUomCd = contractQuantityUomCd;
+    }
+
+    public Double getValuationQuantityAmt() {
+        return valuationQuantityAmt;
+    }
+
+    public void setValuationQuantityAmt(Double valuationQuantityAmt) {
+        this.valuationQuantityAmt = valuationQuantityAmt;
+    }
+
+    public String getValuationQuantityUomCd() {
+        return valuationQuantityUomCd;
+    }
+
+    public void setValuationQuantityUomCd(String valuationQuantityUomCd) {
+        this.valuationQuantityUomCd = valuationQuantityUomCd;
+    }
+
+    public Double getMtmValueAmt() {
+        return mtmValueAmt;
+    }
+
+    public void setMtmValueAmt(Double mtmValueAmt) {
+        this.mtmValueAmt = mtmValueAmt;
+    }
+
+    public String getMtmValueCurrencyCd() {
+        return mtmValueCurrencyCd;
+    }
+
+    public void setMtmValueCurrencyCd(String mtmValueCurrencyCd) {
+        this.mtmValueCurrencyCd = mtmValueCurrencyCd;
+    }
+
+    public Double getSettlementValueAmt() {
+        return settlementValueAmt;
+    }
+
+    public void setSettlementValueAmt(Double settlementValueAmt) {
+        this.settlementValueAmt = settlementValueAmt;
+    }
+
+    public String getSettlementValueCurrencyCd() {
+        return settlementValueCurrencyCd;
+    }
+
+    public void setSettlementValueCurrencyCd(String settlementValueCurrencyCd) {
+        this.settlementValueCurrencyCd = settlementValueCurrencyCd;
+    }
+
+    public Date getPaymentDueDate() {
+        return paymentDueDate;
+    }
+
+    public void setPaymentDueDate(Date paymentDueDate) {
+        this.paymentDueDate = paymentDueDate;
+    }
+
+    public String getPriceSettleFrequencyCd() {
+        return priceSettleFrequencyCd;
+    }
+
+    public void setPriceSettleFrequencyCd(String priceSettleFrequencyCd) {
+        this.priceSettleFrequencyCd = priceSettleFrequencyCd;
+    }
+
+    public Date getInvoiceDt() {
+        return invoiceDt;
+    }
+
+    public void setInvoiceDt(Date invoiceDt) {
+        this.invoiceDt = invoiceDt;
+    }
+
+    public String getReturnExposureInd() {
+        return returnExposureInd;
+    }
+
+    public void setReturnExposureInd(String returnExposureInd) {
+        this.returnExposureInd = returnExposureInd;
+    }
+
+    public String getNoExpReturnReasonCd() {
+        return noExpReturnReasonCd;
+    }
+
+    public void setNoExpReturnReasonCd(String noExpReturnReasonCd) {
+        this.noExpReturnReasonCd = noExpReturnReasonCd;
+    }
+
+    public Date getSrcLegLastUpdtDtm() {
+        return srcLegLastUpdtDtm;
+    }
+
+    public void setSrcLegLastUpdtDtm(Date srcLegLastUpdtDtm) {
+        this.srcLegLastUpdtDtm = srcLegLastUpdtDtm;
+    }
+
+    public String getPaymentSecurityCd() {
+        return paymentSecurityCd;
+    }
+
+    public void setPaymentSecurityCd(String paymentSecurityCd) {
+        this.paymentSecurityCd = paymentSecurityCd;
+    }
+
+    public Date getCreateDtm() {
+        return createDtm;
+    }
+
+    public void setCreateDtm(Date createDtm) {
+        this.createDtm = createDtm;
+    }
+
+    public Date getLastUpdtDtm() {
+        return lastUpdtDtm;
+    }
+
+    public void setLastUpdtDtm(Date lastUpdtDtm) {
+        this.lastUpdtDtm = lastUpdtDtm;
+    }
+
+    public String getCreateUserId() {
+        return createUserId;
+    }
+
+    public void setCreateUserId(String createUserId) {
+        this.createUserId = createUserId;
+    }
+
+    public String getUpdateUserId() {
+        return updateUserId;
+    }
+
+    public void setUpdateUserId(String updateUserId) {
+        this.updateUserId = updateUserId;
+    }
+
+    public Boolean getDeleteFlag() {
+        return deleteFlag;
+    }
+
+    public void setDeleteFlag(Boolean deleteFlag) {
+        this.deleteFlag = deleteFlag;
+    }
+
+	public String getReceivePricingTermCd() {
+		return receivePricingTermCd;
+	}
+
+	public void setReceivePricingTermCd(String receivePricingTermCd) {
+		this.receivePricingTermCd = receivePricingTermCd;
+	}
+
+	public String getPayPricingTermCd() {
+		return payPricingTermCd;
+	}
+
+	public void setPayPricingTermCd(String payPricingTermCd) {
+		this.payPricingTermCd = payPricingTermCd;
+	}
+
+    public Double getChainNumber() {
+		return chainNumber;
+	}
+
+	public void setChainNumber(Double chainNumber) {
+		this.chainNumber = chainNumber;
+	}
+   
+}
